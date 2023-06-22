@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ElecPOE.DTO.LearnerDTO>
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .res {
+        margin-right: 10px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+<div class="row">
+<div class="col-md-8">
+    <figure>
+            <p class="fw-bold text-primary"><i class="fa fa-building"></i> @ViewData["comp"]</p>
+        <figcaption class="blockquote-footer">
+            <i class="fa fa-map-marker text-danger"></i> <cite title="Source Title" class="text-danger"> @ViewData["address"]</cite>
+        </figcaption>
+    </figure>
+</div>
+<div class="col-md-4 mt-3">
+        <a class="btn btn-outline-danger float-end" asp-action="HostCompanies"><i class="fa fa-window-close"></i> Exit</a>
+</div>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa bi-book-half me-1 text-white"></i>
+            <span class="text-white">List of Learners Placed at - @ViewData["Comp"]<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-xl-6 bod">
+                    <div class="card-body">
+                        <table class="table table-striped" id="datatablesSimple">
+                            <thead style="color:darkred">
+                                <tr>
+                                    <th class="text-white">Learner</th>
+                                    <th class="text-white">Start Date</th>
+                                    <th class="text-white">End Date</th>
+                                    <th class="text-white">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+
+                                        <td>@item.LearnerName</td>
+                                        <td>@item.Start</td>
+                                        <td>@item.End</td>
+                                        <td><span class="badge text-bg-primary">@item.Status</span></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card-body mb-4">
+                        <img id="output" src="~/Theme/images/One.jpg" class="form-control" height="350px" style="border:none" />
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ElecPOE.DTO.EvidenceViewModel>
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    #output {
+        border-bottom-width: 5px;
+        border-bottom-color: darkred;
+    }
+</style>
+
+<div class="col-md-4">
+    <a class="btn btn-outline-primary" asp-controller="Evidence" asp-action="UploadEvidence" asp-route-StudentNumber="@ViewData["HolderNumber"]"><i class="fa bi-plus-circle"></i> Add More</a>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa fa-graduation-cap me-1 text-white"></i>
+            <span class="text-white">@ViewData["EvidenceHolder"]'s Simulation/Evidence Gallery</span>
+        </div>
+        <div class="card-body row">
+
+            @if ((int)ViewData["Number"] > 0)
+            {
+                @foreach (var item in Model)
+                {
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <div class="card-body">
+                                <img id="output" src="~/Gallery/@item.Photo" class="form-control" height="200px" />
+                                <div class="mt-1 text-center" style="border-width:0.5px; border:solid; border-color:darkred" ;>
+                                    <a class="text-center text-danger">@item.Module.ToString() <i class="fa fa-download text-pt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="alert alert-danger" role="alert" style="border-bottom-width:3px;border-bottom-color:darkred">
+                    <strong class="text-center"><i class="fa bi-emoji-frown"></i> Empty Student Gallery</strong><hr>
+                    <p>No student Photo for either Simulation or Evidence was uploaded!!!</p>
+
+                </div>
+            }
+
+            
+        </div>
+
+    </div>
+</div>
+

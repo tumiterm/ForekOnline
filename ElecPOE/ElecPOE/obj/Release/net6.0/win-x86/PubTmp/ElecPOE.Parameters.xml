@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ElecPOE20230116122150" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mlang\\Desktop\\Forek\ Digital\ POE\\ElecPOE\\ElecPOE\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="ElecPOE.Data.ApplicationDbContext" description="" value="Server=tcp:electronicpoeserver.database.windows.net,1433;Initial Catalog=poe_db;Persist Security Info=False;User ID=admin-sql;Password=P@55w0rd2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\mlang\\Desktop\\Forek\ Digital\ POE\\ElecPOE\\ElecPOE\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\ElecPOE\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

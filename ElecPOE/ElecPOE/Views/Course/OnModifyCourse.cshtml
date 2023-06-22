@@ -1,0 +1,114 @@
+﻿@model ElecPOE.DTO.CourseModuleDTO
+@using ElecPOE.Enums
+@{
+    ViewData["Title"] = "On Modify Course";
+}
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .rs{
+        margin-right: 10px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Course Registration & Management<span class="text-bold"></span></span>
+        </div><br />
+
+        <div class="col-xl-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-book me-1 text-white"></i>
+                    <span class="text-white">Manage Course<span class="text-bold"></span></span>
+                </div>
+
+                <div class="card-body">
+                    <form asp-action="OnModifyCourse">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="CourseId" />
+                        <div class="row">
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Course Name</label>
+                                <input asp-for="Name" required class="form-control" />
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Course Type</label>
+                                <select asp-for="Type" class="form-control Type" asp-items="Html.GetEnumSelectList<eCourseType>()">
+                                    <option selected="selected" value="">Select Course Type</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">NQF Level</label>
+                                <select asp-for="CourseNQFLevel" class="form-control Type" asp-items="Html.GetEnumSelectList<eNQF>()">
+                                    <option selected="selected" value="">Select NQF Level</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Course Credit</label>
+                                <input asp-for="CourseCredit" required class="form-control" />
+                            </div>
+
+
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Modified By</label>
+                                <input asp-for="ModifiedBy" class="form-control text-white" readonly style="background-color: darkorange" />
+                            </div>
+
+
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Modified On</label>
+                                <input asp-for="ModifiedOn" required class="form-control text-white" readonly style="background-color: darkorange" />
+                            </div>
+
+                            <div class="form-group mt-2">
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                                <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                <a class="btn btn-danger float-end" asp-action="OnGetCourse"><i class="fa fa-window-close"></i> Exit</a>
+                                <button type="reset" class="btn btn-outline-warning float-end rs"><i class="fa fa-undo"></i> Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,152 @@
+﻿<style>
+    @@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+    body {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .header {
+        min-height: 60vh;
+        background: #009FFF;
+        background: linear-gradient(to right, #ec2F4B, #009FFF);
+        color: white;
+        clip-path: ellipse(100vw 60vh at 50% 50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .profile-pic {
+        height: 6rem;
+        width: 6rem;
+        object-fit: center;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+
+    .location p {
+        display: inline-block;
+    }
+
+    .location svg {
+        vertical-align: middle;
+    }
+
+    .stats {
+        display: flex;
+    }
+
+        .stats .col-4 {
+            width: 10rem;
+            text-align: center;
+        }
+
+    .heading {
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+
+    .vs {
+        margin-left: 240px;
+    }
+
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa fa-chalkboard-teacher me-1 text-white"></i>
+            <span class="text-white">Facilitator Statistical Analysis (@ViewData["fUserName"])</span>
+        </div>
+
+        <div class="card-body">
+            <section class="profile">
+                <header class="header">
+                    <div class="details">
+                        <img src="~/AKA.png" alt="Supermega" class="profile-pic">
+                        <h1 class="heading">@ViewData["fUserName"]</h1>
+                        <div class="location">
+
+                            @{
+                                if ((int)ViewData["UploadsCount"] > 150)
+                                {
+                                    <p class="text-white"> Well done!!! - you have passed the 150 assessments uploads mark. You are a star</p>
+                                }
+                                else
+                                {
+                                    <strong class="text-danger"> Sorry you need to try harder now! Please try to push uploads</strong>
+                                }
+                            }
+                        </div>
+                        <div class="stats">
+                            <div class="col-4">
+                                <h4>@ViewData["LPCount"]</h4>
+                                <p class="text-white">Lesson Plans</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>@ViewData["LPRepCount"]</h4>
+                                <p class="text-white">Weekly Reports</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>@ViewData["UploadsCount"]</h4>
+                                <p class="text-white">Assessments Uploads</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+
+

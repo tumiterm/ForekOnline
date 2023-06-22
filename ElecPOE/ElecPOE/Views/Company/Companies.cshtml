@@ -1,0 +1,163 @@
+﻿@model ElecPOE.DTO.CompanyAddressContactDTO
+@using ElecPOE.Enums
+
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+    .res{
+        margin-right:10px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+<a asp-action="HostCompanies" asp-controller="Company" class="text-primary"><i class="fa fa-eye"></i> View Companies</a>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa bi-building me-1 text-white"></i>
+            <span class="text-white">Placement (Host Company Details)<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+
+            <form asp-action="Companies">
+                <div class="row">
+
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Company Name</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa bi-building text-primary"></i></span>
+                            <input asp-for="CompanyName" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Company Speciality</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa bi-question-circle-fill text-primary"></i></span>
+                            <select asp-for="Speciality" class="form-control Type" asp-items="Html.GetEnumSelectList<eSpeciality>()">
+                                <option selected="selected" value="">Select Speciality</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Company Phone</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone text-primary"></i></span>
+                            <input asp-for="Phone" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="card-header mt-3 mb-3">
+                        <i class="fa fa-address-card me-1 text-white"></i>
+                        <span class="text-white">Company Address<span class="text-bold"></span></span>
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Street/Complex Name</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-address-card text-primary"></i></span>
+                            <input asp-for="StreetName" required class="form-control" />
+                        </div>
+                    </div>
+
+
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Address Line 2</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker text-primary"></i></span>
+                            <input asp-for="Line1" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Province</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa bi-map-fill text-primary"></i></span>
+                            <select asp-for="Province" class="form-control Type" asp-items="Html.GetEnumSelectList<eProvince>()">
+                                <option selected="selected" value="">Select Province</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">City</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa bi-map text-primary"></i></span>
+                            <input asp-for="City" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-1">
+                        <label class="control-label">Postal Code</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa bi-sort-numeric-up text-primary"></i></span>
+                            <input asp-for="PostalCode" required class="form-control" />
+                        </div>
+                    </div>
+
+
+                    <div class="card-header mt-3 mb-3">
+                        <i class="fa fa-user me-1 text-white"></i>
+                        <span class="text-white">Company Contact Person Details<span class="text-bold"></span></span>
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Full Name</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-address-card text-primary"></i></span>
+                        <input asp-for="Name" required class="form-control" />
+                    </div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Last Name</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user text-primary"></i></span>
+                        <input asp-for="LastName" required class="form-control" />
+                    </div>
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Cellphone</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone text-primary"></i></span>
+                        <input asp-for="Cellphone" required class="form-control" />
+                    </div>
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Email</label>
+                        <div class="input-group input1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope text-primary"></i></span>
+                        <input asp-for="Email" required class="form-control" />
+                    </div>
+                    </div>
+
+                    <div class="form-group col-md-12 mt-3">
+                        <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                            <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                            <a class="btn btn-danger float-end" asp-action="Settings" asp-controller="Auth"><i class="fa fa-window-close"></i> Exit</a>
+                            <button type="reset" class="btn btn-outline-warning float-end res"><i class="fa fa-undo"></i> Reset</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>

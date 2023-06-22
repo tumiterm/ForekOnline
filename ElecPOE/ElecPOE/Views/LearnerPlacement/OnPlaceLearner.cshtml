@@ -1,0 +1,271 @@
+﻿@model ElecPOE.DTO.PlacementDTO
+@using ElecPOE.Enums
+
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .res {
+        margin-right: 10px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+<div class="col-md-4">
+    <a class="text-danger fw-bold" asp-action="PlacedLearners" asp-controller="LearnerPlacement"><i class="fa bi-list-check"></i> Learner List</a>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa bi-building me-1 text-white"></i>
+            <span class="text-white">Learner Placement<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="OnPlaceLearner">
+                <div class="row">
+                    <input asp-for="PlacementId" hidden />
+                    <div class="col-xl-6 bod">
+                        <div class="card-body">
+                            <div class="form-group col-md-12">
+                                <label class="control-label">Student</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-graduation-cap text-primary"></i></span>
+                                    <input asp-for="Student" class="form-control fw-bold" style="background-color: rgb(255, 213, 128)" readonly />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <label class="control-label">Host Company</label>
+                                <div class="input-group mb- input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-building text-primary"></i></span>
+                                    <select class="form-control" name="CompanyId" required>
+                                        <option selected disabled>Select Company</option>
+                                        @foreach (var companyItem in ViewBag.CompanyId as IEnumerable<SelectListItem>)
+                                        {
+                                            <option value="@companyItem.Value" selected="@(Model.CompanyId == companyItem.Value ? "selected" : null)">@companyItem.Text</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">Placement Status</label>
+                                    <div class="input-group input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-question-circle text-primary"></i></span>
+                                        <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<eStatus>()" required>
+                                            <option selected="selected" value="">Select Option</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">Campus Mentor</label>
+                                    <div class="input-group  input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-users text-primary"></i></span>
+                                        <select asp-for="PlacedBy" class="form-control" asp-items="@ViewBag.UserId" required>
+                                            <option selected="selected" value="">Select Option</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">Start Date</label>
+                                    <div class="input-group  input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar text-primary"></i></span>
+                                        <input asp-for="StartDate" type="date" class="form-control" required />
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">End Date</label>
+                                    <div class="input-group  input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar text-primary"></i></span>
+                                        <input asp-for="EndDate" type="date" class="form-control" required />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group form-check mt-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                                </label>
+                            </div>
+
+                            <div class="form-group col-md-12 mt-3">
+                                <button type="submit" class="btn btn-success save col-md-2"><i class="fa fa-save"></i> Save</button>
+                                <a asp-action="WorkplaceModules" asp-controller="WorplaceModules" asp-route-PlacementId="@Model.PlacementId" class="btn btn-outline-primary col-md-4"><i class="fa fa-eye"></i> Workplace Modules</a>
+                                <button type="button" class="btn btn-dark col-md-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa bi-plus-circle"></i> Add Workplace Modules</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card-body mb-4">
+                            <img id="output" src="~/Images/6308.jpg" class="form-control" height="350px" style="border:none" />
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header text-white" style="background-color: darkred">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Workplace Modules</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="RegisterModule" asp-controller="WorplaceModules" asp-route-PlacementId="@ViewData["PlacementId"]" asp-route-CompanyId="@ViewData["CompanyId"]" method="post">
+
+                <div class="col-xl-12">
+                    <div class="row">
+                        <div class="modal-body">
+                            <input name="PlacementId" value="@ViewData["PlacementId"]" hidden />
+                            <input name="CompanyId" value="@ViewData["CompanyId"]" hidden />
+
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fa bi-building me-1 text-white"></i>
+                                    <span class="text-white">Manage Learner Workplace Modules<span class="text-bold"></span></span>
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label">Course</label>
+                                            <div class="input-group  input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-book text-primary"></i></span>
+                                                <select name="CourseId" class="form-control course" asp-items="@ViewBag.CourseId" required>
+                                                    <option selected="selected" value="">Select Course</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label">Module</label>
+                                            <div class="input-group  input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-book-open text-primary"></i></span>
+                                                <select name="ModuleId" class="form-control module" required asp-items="@ViewBag.ModuleId">
+                                                    <option selected="selected" value="">Select Module</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Start Day</label>
+                                            <div class="input-group input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar text-primary"></i></span>
+                                                <input asp-for="StartDate" type="date" class="form-control" required />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">End Day</label>
+                                            <div class="input-group input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar text-danger"></i></span>
+                                                <input asp-for="EndDate" type="date" class="form-control" required />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Duration (Days)</label>
+                                            <div class="input-group input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-clock-o text-primary"></i></span>
+                                                <input name="Days" type="number" class="form-control" required />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Module Progress</label>
+                                            <div class="input-group input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-spinner text-primary"></i></span>
+                                                <select name="Progress" class="form-control" asp-items="Html.GetEnumSelectList<eStatus>()" required>
+                                                    <option selected="selected" value="">Select Progress</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer" style="background-color: #FF7276">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+        <script>
+            $(document).ready(function () {
+
+                getCourseByModuleId();
+
+            });
+
+            $('.course').change(function () {
+
+                getCourseByModuleId();
+
+            });
+
+            var getCourseByModuleId = function () {
+
+                $.ajax({
+
+                    url: '@Url.Action("GetCourseModuleId","LearnerPlacement")',
+
+                    type: 'GET',
+
+                    data: {
+
+                        CourseId: $('.course').val(),
+                    },
+                    success: function (data) {
+
+                        $('.module').find('option').remove();
+
+                        $(data).each(
+
+                            function (index, item) {
+
+                                $('.module').append('<option value="' + item.moduleId + '">' + item.moduleName + '<option/>')
+
+                            }
+                        )
+
+                    }
+                })
+            }
+
+        </script>
+    }
+}
+
+

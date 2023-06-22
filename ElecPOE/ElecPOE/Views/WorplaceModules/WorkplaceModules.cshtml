@@ -1,0 +1,142 @@
+﻿@model IEnumerable<ElecPOE.DTO.WorkplaceModulesDTO>
+
+<style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .ref {
+        background-color: darkblue;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td,
+    .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #FCCFCF;
+    }
+</style>
+<div class="col-md-4">
+    <a class="text-danger" asp-action="OnPlaceLearner" asp-controller="LearnerPlacement" asp-route-PlacementId="@ViewData["PlacementId"]"><i class="fa fa-plus"></i> Add Module</a>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas bi-mortarboard-fill me-1 text-white"></i>
+            <span class="text-white">Workplace Modules for - @ViewData["Stud"] (@ViewData["Course"])<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+                        <th>
+                            Action
+                        </th>
+                        <th class="text-white">Module</th>
+                        <th class="text-white">Duration(Days)</th>
+                        <th class="text-white">Progress</th>
+                        <th class="text-white">Company</th>
+                        <th class="text-white">Start Date</th>
+                        <th class="text-white">End Date</th>
+                        <th class="text-white">RegisteredBy</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="OnViewModule" asp-route-LearnerWorkplaceModulesId="@item.LearnerWorkplaceModulesId" asp-route-PlacementId="@item.PlacementId"><i class="fa bi-folder2-open"></i> Open</a>
+                            </td>
+                            <td>@item.Module</td>
+                            <td>@item.Days</td>
+                            <td><span class="badge bg-primary">@item.Progress</span></td>
+                            <td>@item.Company</td>
+                            <td>@item.StartDate</td>
+                            <td>@item.EndDate</td>
+                            <td>@item.RegisteredBy</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<br />
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(function () {
+
+        var userRole = '@ViewData["role"]';
+
+        if (userRole == 'Facilitator') {
+
+            Swal.fire({
+                position: 'middle',
+                icon: 'success',
+                title: 'Welcome ' + '@ViewData["CurrentUser"]',
+                showConfirmButton: false,
+                timer: 3500,
+                footer: 'We are thrilled to have you on board.'
+            })
+
+
+        }
+
+
+    });
+</script>
+
+
+
+
+
+
+
