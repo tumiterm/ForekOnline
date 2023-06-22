@@ -66,7 +66,6 @@ builder.Services.AddScoped<IUnitOfWork<Visit>, VisitRepository>();
 builder.Services.AddScoped<IUnitOfWork<Medical>, MedicalRepository>();
 builder.Services.AddScoped<IUnitOfWork<Application>, ApplicationRepository>();
 builder.Services.AddScoped<IUnitOfWork<Guardian>, GuardianRepository>();
-builder.Services.AddScoped<IUnitOfWork<Minute>,MinuteRepository>();
 
 var app = builder.Build();
 

@@ -32,7 +32,6 @@ namespace ElecPOE.Data
         public DbSet<Application> Applications { get; set; }
         public DbSet<Guardian> Guardians { get; set; }
         public DbSet<Medical> Medicals { get; set; }
-        public DbSet<Minute> Minutes { get; set; }
 
 
 
