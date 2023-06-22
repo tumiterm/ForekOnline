@@ -9,261 +9,261 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ElecPOE
 build_property.RootNamespace = ElecPOE
-build_property.ProjectDir = C:\Users\Dell i7\Source\Repos\ForekOnline\ElecPOE\ElecPOE\
+build_property.ProjectDir = C:\Users\Dell i7\Source\Repos\tumiterm\ForekOnline\ElecPOE\ElecPOE\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dell i7\Source\Repos\ForekOnline\ElecPOE\ElecPOE
+build_property.MSBuildProjectDirectory = C:\Users\Dell i7\Source\Repos\tumiterm\ForekOnline\ElecPOE\ElecPOE
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Applications/Applications.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Applications/Applications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25zXEFwcGxpY2F0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Applications/Apply.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Applications/Apply.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25zXEFwcGx5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Applications/OnApply.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Applications/OnApply.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25zXE9uQXBwbHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Assessment/AttachAssessment.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Assessment/AttachAssessment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudFxBdHRhY2hBc3Nlc3NtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Auth/Facilitator.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Auth/Facilitator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxGYWNpbGl0YXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Auth/OnViewUserInfo.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Auth/OnViewUserInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxPblZpZXdVc2VySW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Auth/RetrieveUsers.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Auth/RetrieveUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZXRyaWV2ZVVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Auth/Settings.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Auth/Settings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTZXR0aW5ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Auth/SignIn.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Auth/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Auth/SignUp.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Auth/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Company/Companies.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Company/Companies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDb21wYW5pZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Company/HostCompanies.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Company/HostCompanies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxIb3N0Q29tcGFuaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Company/OnGetLearners.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Company/OnGetLearners.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxPbkdldExlYXJuZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Company/OnModifyHostCompany.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Company/OnModifyHostCompany.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxPbk1vZGlmeUhvc3RDb21wYW55LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Course/Course.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Course/Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Course/OnCourse.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Course/OnCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXE9uQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Course/OnGetCourse.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Course/OnGetCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXE9uR2V0Q291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Course/OnModifyCourse.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Course/OnModifyCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXE9uTW9kaWZ5Q291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/OnViewAllFiles.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/OnViewAllFiles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcT25WaWV3QWxsRmlsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/StudentGallery.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/StudentGallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcU3R1ZGVudEdhbGxlcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/UploadEvidence.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/UploadEvidence.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcVXBsb2FkRXZpZGVuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/ViewStudentFile.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Evidence/ViewStudentFile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcVmlld1N0dWRlbnRGaWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Global/AccessDenied.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Global/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Global/Acknowledgement.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Global/Acknowledgement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsXEFja25vd2xlZGdlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Global/RouteNotFound.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Global/RouteNotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsXFJvdXRlTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Home/AdminPanel.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Home/AdminPanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhbmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Home/Index.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Home/Privacy.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LearnerAssessment/StudAssessments.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LearnerAssessment/StudAssessments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lckFzc2Vzc21lbnRcU3R1ZEFzc2Vzc21lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/OnPlaceLearner.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/OnPlaceLearner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclBsYWNlbWVudFxPblBsYWNlTGVhcm5lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/PlacedLearners.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/PlacedLearners.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclBsYWNlbWVudFxQbGFjZWRMZWFybmVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/PlaceLearner.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/PlaceLearner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclBsYWNlbWVudFxQbGFjZUxlYXJuZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/PlacementDetails.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LearnerPlacement/PlacementDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclBsYWNlbWVudFxQbGFjZW1lbnREZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LessonPlanConfig/OnCreatePlan.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LessonPlanConfig/OnCreatePlan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uUGxhbkNvbmZpZ1xPbkNyZWF0ZVBsYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LessonPlanConfig/OnModifyPlanConfig.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LessonPlanConfig/OnModifyPlanConfig.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uUGxhbkNvbmZpZ1xPbk1vZGlmeVBsYW5Db25maWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/LessonPlanConfig/StatisticalAnalysis.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/LessonPlanConfig/StatisticalAnalysis.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uUGxhbkNvbmZpZ1xTdGF0aXN0aWNhbEFuYWx5c2lzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/NatedStudies/EngineeringStudies.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/NatedStudies/EngineeringStudies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0ZWRTdHVkaWVzXEVuZ2luZWVyaW5nU3R1ZGllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/NatedStudies/HomePage.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/NatedStudies/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0ZWRTdHVkaWVzXEhvbWVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Report/CreateReport.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Report/CreateReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XENyZWF0ZVJlcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Report/IncorrectID.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Report/IncorrectID.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluY29ycmVjdElELmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Report/ModifyReport.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Report/ModifyReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XE1vZGlmeVJlcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Report/UserReports.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Report/UserReports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFVzZXJSZXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Results/StudentResults.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Results/StudentResults.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdWx0c1xTdHVkZW50UmVzdWx0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Shared/Error.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Shared/_Notifications.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Shared/_Notifications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/StudentFinance/UploadStudentStatement.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/StudentFinance/UploadStudentStatement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEZpbmFuY2VcVXBsb2FkU3R1ZGVudFN0YXRlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/StudentReport/UploadReport.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/StudentReport/UploadReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlcG9ydFxVcGxvYWRSZXBvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Student/StudentDetail.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Student/StudentDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Student/StudentDocuments.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Student/StudentDocuments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RG9jdW1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Student/StudentList.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Student/StudentList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Student/Unassigned.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Student/Unassigned.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxVbmFzc2lnbmVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/TrainingAssessment/TrainingMaterial.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/TrainingAssessment/TrainingMaterial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5pbmdBc3Nlc3NtZW50XFRyYWluaW5nTWF0ZXJpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Uploads/StudentMaterial.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Uploads/StudentMaterial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2Fkc1xTdHVkZW50TWF0ZXJpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Visit/OnModifyVisitation.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Visit/OnModifyVisitation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcT25Nb2RpZnlWaXNpdGF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Visit/Visitation.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Visit/Visitation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcVmlzaXRhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Visit/VisitationList.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Visit/VisitationList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcVmlzaXRhdGlvbkxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/WorplaceModules/OnViewModule.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/WorplaceModules/OnViewModule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ycGxhY2VNb2R1bGVzXE9uVmlld01vZHVsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/WorplaceModules/RegisterModule.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/WorplaceModules/RegisterModule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ycGxhY2VNb2R1bGVzXFJlZ2lzdGVyTW9kdWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/WorplaceModules/WorkplaceModules.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/WorplaceModules/WorkplaceModules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ycGxhY2VNb2R1bGVzXFdvcmtwbGFjZU1vZHVsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/_ViewImports.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/_ViewStart.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell i7/Source/Repos/ForekOnline/ElecPOE/ElecPOE/Views/Shared/_Layout.cshtml]
+[C:/Users/Dell i7/Source/Repos/tumiterm/ForekOnline/ElecPOE/ElecPOE/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bmx4d54az3

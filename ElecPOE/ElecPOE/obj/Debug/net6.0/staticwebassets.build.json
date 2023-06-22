@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "chwaCsoVhRSJsb8OwG4ZbV73mlmO31RnLPJlvyE5cFw=",
+  "Hash": "nFllx5l+BEwVHo3JUI2Af/NiLymXkzm3NaupYePXmi8=",
   "Source": "ElecPOE",
   "BasePath": "_content/ElecPOE",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ElecPOE\\wwwroot",
       "Source": "ElecPOE",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css",
+      "Identity": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "notyf.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css"
+      "OriginalItemSpec": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js",
+      "Identity": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "notyf.min.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js"
+      "OriginalItemSpec": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css",
+      "Identity": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "toastify.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css"
+      "OriginalItemSpec": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js",
+      "Identity": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "toastify.js",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mlang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js"
+      "OriginalItemSpec": "C:\\Users\\Dell i7\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ElecPOE.styles.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ElecPOE.styles.css",
       "SourceId": "ElecPOE",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "ElecPOE.styles.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ElecPOE.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ElecPOE.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ElecPOE.bundle.scp.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ElecPOE.bundle.scp.css",
       "SourceId": "ElecPOE",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "ElecPOE.bundle.scp.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ElecPOE.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ElecPOE.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AKA.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AKA.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "AKA.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\AKA.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "AppIDPass/Applications Controller.pdf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\AppIDPass\\Applications Controller.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "AppIDPass/Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\AppIDPass\\Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "AppIDPass/ARPL implementation plan.pdf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\AppIDPass\\ARPL implementation plan.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "AppIDPass/ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\AppIDPass\\ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Assessments/zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Assessments\\zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\css\\site.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -527,10 +527,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\eric proof0e3537ac-59f9-4b6e-b231-fd23d4ceb81b.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "BasePath": "_content/ElecPOE",
+      "RelativePath": "Docs/eric proof0e3537ac-59f9-4b6e-b231-fd23d4ceb81b.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Docs\\eric proof0e3537ac-59f9-4b6e-b231-fd23d4ceb81b.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf",
+      "SourceId": "ElecPOE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Docs/MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Docs\\MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Docs/MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Docs\\MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\favicon.ico",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Gallery/WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\Applications Controller.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\Applications Controller.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "GuardianID/Applications Controller.pdf",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\GuardianID\\Applications Controller.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\ARPL implementation plan.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\ARPL implementation plan.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "GuardianID/ARPL implementation plan.pdf",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\GuardianID\\ARPL implementation plan.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\HighestQualification\\ARPL implementation plan.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\HighestQualification\\ARPL implementation plan.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "HighestQualification/ARPL implementation plan.pdf",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\HighestQualification\\ARPL implementation plan.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\5836.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\5836.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/5836.jpg",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5836.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\6308.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\6308.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/6308.jpg",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6308.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Gallery.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Gallery.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/Gallery.jpg",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Gallery.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Placement.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Placement.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/Placement.jpg",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Placement.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (1).jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (1).jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/Purple and blue congrats grad banner (1).jpg",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Purple and blue congrats grad banner (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (2).jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (2).jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/Purple and blue congrats grad banner (2).jpg",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Purple and blue congrats grad banner (2).jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/Purple and blue congrats grad banner.jpg",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Purple and blue congrats grad banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Stipends.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Stipends.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Images/Stipends.jpg",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Stipends.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-demo.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-demo.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "js/datatables-demo.js",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datatables-demo.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-simple-demo.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-simple-demo.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "js/datatables-simple-demo.js",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datatables-simple-demo.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\scripts.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\scripts.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\site.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1513,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1547,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1564,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1581,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "LP/WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\Applications Controller.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\Applications Controller.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Residence/Applications Controller.pdf",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Residence\\Applications Controller.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\ARPL implementation plan.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\ARPL implementation plan.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Residence/ARPL implementation plan.pdf",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Residence\\ARPL implementation plan.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap.min.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap-icons.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap-icons.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/css/bootstrap-icons.css",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\bootstrap-icons.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\templatemo-kind-heart-charity.css",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\templatemo-kind-heart-charity.css",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/css/templatemo-kind-heart-charity.css",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\templatemo-kind-heart-charity.css"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/bootstrap-icons.woff",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff2",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff2",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/bootstrap-icons.woff2",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\.DS_Store",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\.DS_Store",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/.DS_Store",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-Bold.woff",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff2",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff2",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-Bold.woff2",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-Light.woff",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff2",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff2",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-Light.woff2",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff2"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-Regular.woff",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff2",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff2",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-Regular.woff2",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-SemiBold.woff",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff2",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff2",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/fonts/Metropolis/Metropolis-SemiBold.woff2",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff2"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/avatar/portrait-young-beautiful-woman-gesticulating.jpg",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-redhead-bearded-male.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-redhead-bearded-male.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/avatar/portrait-young-redhead-bearded-male.jpg",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\avatar\\portrait-young-redhead-bearded-male.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/avatar/studio-portrait-emotional-happy-funny.jpg",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/causes/african-woman-pouring-water-recipient-outdoors.jpg",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\group-african-kids-paying-attention-class.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\group-african-kids-paying-attention-class.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/causes/group-african-kids-paying-attention-class.jpg",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\causes\\group-african-kids-paying-attention-class.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/causes/poor-child-landfill-looks-forward-with-hope.jpg",
       "AssetKind": "All",
@@ -2482,10 +2499,27 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\hands.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\ForekPOE.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "BasePath": "_content/ElecPOE",
+      "RelativePath": "Theme/images/ForekPOE.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\images\\ForekPOE.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\hands.png",
+      "SourceId": "ElecPOE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/icons/hands.png",
       "AssetKind": "All",
@@ -2499,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\icons\\hands.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\heart.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\heart.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/icons/heart.png",
       "AssetKind": "All",
@@ -2516,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\icons\\heart.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\receive.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\receive.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/icons/receive.png",
       "AssetKind": "All",
@@ -2533,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\icons\\receive.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\scholarship.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\scholarship.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/icons/scholarship.png",
       "AssetKind": "All",
@@ -2550,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\icons\\scholarship.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\logob-removebg-preview.png",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\logob-removebg-preview.png",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/logob-removebg-preview.png",
       "AssetKind": "All",
@@ -2567,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\logob-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\africa-humanitarian-aid-doctor.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\africa-humanitarian-aid-doctor.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/news/africa-humanitarian-aid-doctor.jpg",
       "AssetKind": "All",
@@ -2584,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\news\\africa-humanitarian-aid-doctor.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-happy-people-working-together.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-happy-people-working-together.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/news/close-up-happy-people-working-together.jpg",
       "AssetKind": "All",
@@ -2601,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\news\\close-up-happy-people-working-together.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/news/close-up-volunteer-oganizing-stuff-donation.jpg",
       "AssetKind": "All",
@@ -2618,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-people-collecting-foodstuff.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-people-collecting-foodstuff.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/news/medium-shot-people-collecting-foodstuff.jpg",
       "AssetKind": "All",
@@ -2635,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\news\\medium-shot-people-collecting-foodstuff.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/news/medium-shot-volunteers-with-clothing-donations.jpg",
       "AssetKind": "All",
@@ -2652,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\One.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\One.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/One.jpg",
       "AssetKind": "All",
@@ -2669,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\One.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\POE.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\POE.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/POE.jpg",
       "AssetKind": "All",
@@ -2686,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\POE.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\medium-shot-people-collecting-donations.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\medium-shot-people-collecting-donations.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/slide/medium-shot-people-collecting-donations.jpg",
       "AssetKind": "All",
@@ -2703,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\slide\\medium-shot-people-collecting-donations.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-helping-with-donation-box.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-helping-with-donation-box.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/slide/volunteer-helping-with-donation-box.jpg",
       "AssetKind": "All",
@@ -2720,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\slide\\volunteer-helping-with-donation-box.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg",
       "AssetKind": "All",
@@ -2737,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\Work.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\Work.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/images/Work.jpg",
       "AssetKind": "All",
@@ -2754,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\images\\Work.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\bootstrap.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2771,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\click-scroll.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\click-scroll.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/js/click-scroll.js",
       "AssetKind": "All",
@@ -2788,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\click-scroll.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\counter.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\counter.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/js/counter.js",
       "AssetKind": "All",
@@ -2805,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\counter.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\custom.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\custom.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/js/custom.js",
       "AssetKind": "All",
@@ -2822,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.min.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/js/jquery.min.js",
       "AssetKind": "All",
@@ -2839,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.sticky.js",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.sticky.js",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/js/jquery.sticky.js",
       "AssetKind": "All",
@@ -2856,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery.sticky.js"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\One.jpg",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\One.jpg",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Theme/One.jpg",
       "AssetKind": "All",
@@ -2873,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\One.jpg"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Training\\Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Training\\Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Training/Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf",
       "AssetKind": "All",
@@ -2890,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\Training\\Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf"
     },
     {
-      "Identity": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Visitation\\M Langa Weekly report-05 june-09 juneb14d2bc5-e3fa-4cc1-a332-c92b3fc7dcf2.docx",
+      "Identity": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Visitation\\M Langa Weekly report-05 june-09 juneb14d2bc5-e3fa-4cc1-a332-c92b3fc7dcf2.docx",
       "SourceId": "ElecPOE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dell i7\\Source\\Repos\\tumiterm\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\",
       "BasePath": "_content/ElecPOE",
       "RelativePath": "Visitation/M Langa Weekly report-05 june-09 juneb14d2bc5-e3fa-4cc1-a332-c92b3fc7dcf2.docx",
       "AssetKind": "All",
