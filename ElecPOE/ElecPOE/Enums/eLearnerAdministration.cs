@@ -403,4 +403,14 @@ namespace ElecPOE.Enums
         [Display(Name = "Icass Evidence")]
         IcassEvidence
     }
+
+    public enum eMeetingType
+    {
+        [Display(Name ="General Meeting")]
+        General_Meeting,
+
+        [Display(Name ="Departmental Meeting")]
+        Departmental_Meeting,
+
+    }
 }

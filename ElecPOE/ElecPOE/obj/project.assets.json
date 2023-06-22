@@ -11530,19 +11530,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mlang\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell i7\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\ElecPOE.csproj",
+      "projectUniqueName": "C:\\Users\\Dell i7\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\ElecPOE.csproj",
       "projectName": "ElecPOE",
-      "projectPath": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\ElecPOE.csproj",
-      "packagesPath": "C:\\Users\\mlang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\",
+      "projectPath": "C:\\Users\\Dell i7\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\ElecPOE.csproj",
+      "packagesPath": "C:\\Users\\Dell i7\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell i7\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mlang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell i7\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11620,7 +11620,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
