@@ -1,0 +1,13 @@
+﻿@model List<string>
+
+<h1>Reports</h1>
+
+<ul>
+    @foreach (var document in Model)
+    {
+        <li>
+            @document
+            <a href="@Url.Action("Download", new { fileName = document })">Download</a>
+        </li>
+    }
+</ul>

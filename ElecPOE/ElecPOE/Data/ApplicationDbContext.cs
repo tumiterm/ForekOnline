@@ -33,6 +33,9 @@ namespace ElecPOE.Data
         public DbSet<Guardian> Guardians { get; set; }
         public DbSet<Medical> Medicals { get; set; }
 
+        public DbSet<User> monthlyReports { get; set; }
+
+
 
 
 

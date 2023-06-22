@@ -1,663 +1,671 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ElecPOE.bundle.scp.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ElecPOE.bundle.scp.css",
       "PackagePath": "staticwebassets\\ElecPOE.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AKA.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AKA.png",
       "PackagePath": "staticwebassets\\AKA.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan.pdf",
       "PackagePath": "staticwebassets\\AppIDPass\\ARPL implementation plan.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf",
       "PackagePath": "staticwebassets\\AppIDPass\\ARPL implementation plan2ce755fc-6d8e-499c-9c2f-565119241c1d.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller.pdf",
       "PackagePath": "staticwebassets\\AppIDPass\\Applications Controller.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\AppIDPass\\Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf",
       "PackagePath": "staticwebassets\\AppIDPass\\Applications Controller38dadc00-6106-4256-a56a-123882f2d2b1.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf",
       "PackagePath": "staticwebassets\\Assessments\\A New Design (2)00c82ec7-2538-484a-985e-29160950d82d.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf",
       "PackagePath": "staticwebassets\\Assessments\\A New Design (3)9230d1ca-c1be-48a0-b20c-31a2517a6082.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf",
       "PackagePath": "staticwebassets\\Assessments\\A New Designac9fefd2-7eff-4ced-9af9-84c09fc3e1d6.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx",
       "PackagePath": "staticwebassets\\Assessments\\Final Proposal TO PRINT COGTA4c2cb848-4cad-467d-b610-4335f2a25be9.docx"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf",
       "PackagePath": "staticwebassets\\Assessments\\ICT Department March 202341d23a0a-36fd-4b86-83b7-0b9be5e7c665.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf",
       "PackagePath": "staticwebassets\\Assessments\\ICT Department March 2023b11442ac-ac04-40c7-8ae2-ca95fbfd325d.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg",
       "PackagePath": "staticwebassets\\Assessments\\Infographics Instagram Ads7f5892de-6de7-4b51-a4de-5192c06801e4.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf",
       "PackagePath": "staticwebassets\\Assessments\\M Langa Weekly Report 22-26 May38667778-cbbe-4e3b-afba-7ba872619886.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx",
       "PackagePath": "staticwebassets\\Assessments\\M Langa Weekly report-05 june-09 juneb500c18b-c07c-47c9-bf49-77ce4dbbb65c.docx"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf",
       "PackagePath": "staticwebassets\\Assessments\\MENALDA LANGA 08-12 May 20235480cef6-e422-4795-871d-3d2779d40c2c.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf",
       "PackagePath": "staticwebassets\\Assessments\\MENALDA LANGA 08-12 May 20237ae9f072-99ef-4b89-a83e-f080b7909cb0.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf",
       "PackagePath": "staticwebassets\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a027798469a369-c802-446c-9fb6-83acb03b52f2.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf",
       "PackagePath": "staticwebassets\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779b3908ce9-71cc-4e6d-ba89-2bc22b6a86d1.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf",
       "PackagePath": "staticwebassets\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779d62ee8a2-121c-474b-a451-602fb0fde71d.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf",
       "PackagePath": "staticwebassets\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779ed9905c4-25ab-43d5-8350-6bc586d3b496.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf",
       "PackagePath": "staticwebassets\\Assessments\\SANELE BUTHELEZIba6e1458-cf44-49aa-88ac-a43494a02779fc5723a3-ebcd-4cbb-82f6-d097436a4e22.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg",
       "PackagePath": "staticwebassets\\Assessments\\WhatsApp Image 2023-02-18 at 4.52.55 PM6f9a0b72-7cc9-41f6-9099-e11e06975211.jpeg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Assessments\\zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf",
       "PackagePath": "staticwebassets\\Assessments\\zp mkhabela idfe0a9ae4-2c3c-400f-8781-27caf5d18bf7.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf",
       "PackagePath": "staticwebassets\\Docs\\MENALDA LANGA 22-23 May 2023 Reprt92b64673-146c-424c-94b4-d71e1338008f.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif",
       "PackagePath": "staticwebassets\\Docs\\MICT SETA33428c63-2fb2-4517-9f66-1e39c13aebe6.jfif"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Docs\\eric proof0e3537ac-59f9-4b6e-b231-fd23d4ceb81b.pdf",
+      "PackagePath": "staticwebassets\\Docs\\eric proof0e3537ac-59f9-4b6e-b231-fd23d4ceb81b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png",
       "PackagePath": "staticwebassets\\Gallery\\Forek Kasif6681d4e-c135-41ab-9bae-5a4bf190a8b2.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png",
       "PackagePath": "staticwebassets\\Gallery\\Grassroots8892588c-a7b3-4c19-8197-a1a85849ab8a.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg",
       "PackagePath": "staticwebassets\\Gallery\\IMG-20230221-WA00002891e964-a97e-45be-9e9d-93118a73fbfb.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg",
       "PackagePath": "staticwebassets\\Gallery\\IMG-20230316-WA0043b5636f87-48e4-415e-bb6f-6f527a47ec0c.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg",
       "PackagePath": "staticwebassets\\Gallery\\Logo template (1)1da56f27-ef3e-449d-bf93-24d8f1e919eb.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg",
       "PackagePath": "staticwebassets\\Gallery\\SAFAc7f55827-18bb-44b3-99f6-29c67a98148d.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg",
       "PackagePath": "staticwebassets\\Gallery\\Silulumanzi5d68af4f-8539-49cc-a7e5-87773b5c765d.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg",
       "PackagePath": "staticwebassets\\Gallery\\WhatsApp Image 2023-04-02 at 8.37.34 AM (1)7cabefa5-9890-4dbd-b17f-b95b93cbd7b5.jpeg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Gallery\\safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png",
       "PackagePath": "staticwebassets\\Gallery\\safa logoa0ab5637-9b3f-44de-a95c-74812b40f0db.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\ARPL implementation plan.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\ARPL implementation plan.pdf",
       "PackagePath": "staticwebassets\\GuardianID\\ARPL implementation plan.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\Applications Controller.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\GuardianID\\Applications Controller.pdf",
       "PackagePath": "staticwebassets\\GuardianID\\Applications Controller.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\HighestQualification\\ARPL implementation plan.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\HighestQualification\\ARPL implementation plan.pdf",
       "PackagePath": "staticwebassets\\HighestQualification\\ARPL implementation plan.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\5836.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\5836.jpg",
       "PackagePath": "staticwebassets\\Images\\5836.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\6308.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\6308.jpg",
       "PackagePath": "staticwebassets\\Images\\6308.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Gallery.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Gallery.jpg",
       "PackagePath": "staticwebassets\\Images\\Gallery.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Placement.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Placement.jpg",
       "PackagePath": "staticwebassets\\Images\\Placement.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (1).jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (1).jpg",
       "PackagePath": "staticwebassets\\Images\\Purple and blue congrats grad banner (1).jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (2).jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner (2).jpg",
       "PackagePath": "staticwebassets\\Images\\Purple and blue congrats grad banner (2).jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Purple and blue congrats grad banner.jpg",
       "PackagePath": "staticwebassets\\Images\\Purple and blue congrats grad banner.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Stipends.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Images\\Stipends.jpg",
       "PackagePath": "staticwebassets\\Images\\Stipends.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf",
       "PackagePath": "staticwebassets\\LP\\G019046970_Invoice1e36943e-7a53-4cbf-a2e4-0f2a1f6b5e61.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf",
       "PackagePath": "staticwebassets\\LP\\G019046970_Invoice5930b2b9-003c-4002-a496-5ed84f02aa9c.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png",
       "PackagePath": "staticwebassets\\LP\\Nkomatii Mine435cc275-edc1-4e82-9d94-ba8a403c719d.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg",
       "PackagePath": "staticwebassets\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM7dbcc9d4-f1af-4275-ab66-6fc52560870e.jpeg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg",
       "PackagePath": "staticwebassets\\LP\\WhatsApp Image 2023-02-14 at 11.28.03 AM8d9bfc1f-9fd1-4b10-b743-4083d23930df.jpeg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg",
       "PackagePath": "staticwebassets\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6b.jpeg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg",
       "PackagePath": "staticwebassets\\LP\\WhatsApp Image 2023-02-16 at 11.35.55 AM8ca033ef-97a6-408f-9558-1d5576490f6bce8ef6df-dbf9-4b37-9a8d-82359191c1e2.jpeg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\ARPL implementation plan.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\ARPL implementation plan.pdf",
       "PackagePath": "staticwebassets\\Residence\\ARPL implementation plan.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\Applications Controller.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Residence\\Applications Controller.pdf",
       "PackagePath": "staticwebassets\\Residence\\Applications Controller.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\One.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\One.jpg",
       "PackagePath": "staticwebassets\\Theme\\One.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap-icons.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\Theme\\css\\bootstrap-icons.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Theme\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\templatemo-kind-heart-charity.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\css\\templatemo-kind-heart-charity.css",
       "PackagePath": "staticwebassets\\Theme\\css\\templatemo-kind-heart-charity.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\.DS_Store",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\.DS_Store",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff2",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff2",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-Bold.woff2"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff2",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff2",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-Light.woff2"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff2",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff2",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-Regular.woff2"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff2",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff2",
       "PackagePath": "staticwebassets\\Theme\\fonts\\Metropolis\\Metropolis-SemiBold.woff2"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\Theme\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff2",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\Theme\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\One.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\ForekPOE.jpg",
+      "PackagePath": "staticwebassets\\Theme\\images\\ForekPOE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\One.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\One.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\POE.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\POE.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\POE.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\Work.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\Work.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\Work.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-redhead-bearded-male.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\portrait-young-redhead-bearded-male.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\avatar\\portrait-young-redhead-bearded-male.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\group-african-kids-paying-attention-class.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\group-african-kids-paying-attention-class.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\causes\\group-african-kids-paying-attention-class.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\hands.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\hands.png",
       "PackagePath": "staticwebassets\\Theme\\images\\icons\\hands.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\heart.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\heart.png",
       "PackagePath": "staticwebassets\\Theme\\images\\icons\\heart.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\receive.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\receive.png",
       "PackagePath": "staticwebassets\\Theme\\images\\icons\\receive.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\scholarship.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\icons\\scholarship.png",
       "PackagePath": "staticwebassets\\Theme\\images\\icons\\scholarship.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\logob-removebg-preview.png",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\logob-removebg-preview.png",
       "PackagePath": "staticwebassets\\Theme\\images\\logob-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\africa-humanitarian-aid-doctor.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\africa-humanitarian-aid-doctor.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\news\\africa-humanitarian-aid-doctor.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-happy-people-working-together.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-happy-people-working-together.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\news\\close-up-happy-people-working-together.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-people-collecting-foodstuff.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-people-collecting-foodstuff.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\news\\medium-shot-people-collecting-foodstuff.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\medium-shot-people-collecting-donations.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\medium-shot-people-collecting-donations.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\slide\\medium-shot-people-collecting-donations.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-helping-with-donation-box.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-helping-with-donation-box.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\slide\\volunteer-helping-with-donation-box.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Theme\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\click-scroll.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\click-scroll.js",
       "PackagePath": "staticwebassets\\Theme\\js\\click-scroll.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\counter.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\counter.js",
       "PackagePath": "staticwebassets\\Theme\\js\\counter.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\custom.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\custom.js",
       "PackagePath": "staticwebassets\\Theme\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\Theme\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.sticky.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Theme\\js\\jquery.sticky.js",
       "PackagePath": "staticwebassets\\Theme\\js\\jquery.sticky.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Training\\Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Training\\Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf",
       "PackagePath": "staticwebassets\\Training\\Annexure A11c19b619-8377-40fc-bcf1-af1c241aa0b6.pdf"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\Visitation\\M Langa Weekly report-05 june-09 juneb14d2bc5-e3fa-4cc1-a332-c92b3fc7dcf2.docx",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\Visitation\\M Langa Weekly report-05 june-09 juneb14d2bc5-e3fa-4cc1-a332-c92b3fc7dcf2.docx",
       "PackagePath": "staticwebassets\\Visitation\\M Langa Weekly report-05 june-09 juneb14d2bc5-e3fa-4cc1-a332-c92b3fc7dcf2.docx"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-demo.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-demo.js",
       "PackagePath": "staticwebassets\\js\\datatables-demo.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-simple-demo.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\datatables-simple-demo.js",
       "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\scripts.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\scripts.js",
       "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\mlang\\Desktop\\Forek Digital POE\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Administrator\\Source\\Repos\\ForekOnline\\ElecPOE\\ElecPOE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
