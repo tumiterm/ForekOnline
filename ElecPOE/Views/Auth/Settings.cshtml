@@ -1,0 +1,308 @@
+﻿<style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    th {
+        color: white;
+    }
+
+
+
+    .vs {
+        margin-left: 240px;
+    }
+
+    .h1,
+    h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .card {
+        background: #fff;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+        border: 1;
+        border-radius: 1rem;
+    }
+
+    .img-hover-zoom--colorize img {
+        border-radius: 50%;
+        width: 150px;
+        height: auto;
+        margin-top: 20px;
+        padding: 1px;
+        transition: transform .5s;
+        filter: grayscale(100%);
+    }
+
+    .img-hover-zoom--colorize:hover img {
+        filter: grayscale(0);
+        transform: scale(1.05);
+    }
+
+    .card h5 {
+        overflow: hidden;
+        height: 80px;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+        .card h5 a {
+            color: black;
+            text-decoration: none;
+        }
+
+    .role {
+        color: #7a7a7a;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fab {
+        font-size: 1.5rem;
+        color: darkgray;
+        transition: transform .5s;
+    }
+
+        .fab:hover {
+            color: black;
+            transform: scale(1.1);
+        }
+
+    .card h2 {
+        font-size: 1rem;
+    }
+
+
+    /* MEDIA */
+
+    @@media only screen and (min-width: 1200px) {
+        .img-hover-zoom--colorize img {
+            width: 200px;
+        }
+    }
+
+    @@media only screen and (min-width: 1200px) {
+        .h1,
+        h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<div class="col-xl-12 ml-0 mr-0">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-user me-1 text-white"></i>
+            <span class="text-white">Settings & Global Configurations<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <div class="container p-5">
+                <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="text-center">
+                                <div class="img-hover-zoom img-hover-zoom--colorize">
+                                    <img class="shadow" src="~/Images/5836.jpg"
+                                         alt="Another Image zoom-on-hover effect">
+                                </div>
+
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix mb-3">
+                                </div>
+
+                                <div class="my-2 text-center">
+
+                                    <h1>Courses</h1>
+
+                                </div>
+
+                                <div class="box">
+                                    <div>
+                                        <a class="btn btn-primary" asp-action="OnGetCourse" asp-controller="Course"><i class="fa bi-arrow-right"></i> Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="text-center">
+
+
+                                <div class="img-hover-zoom img-hover-zoom--colorize">
+                                    <img class="shadow" src="~/Images/Placement.jpg"
+                                         alt="Another Image zoom-on-hover effect">
+                                </div>
+
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix mb-3">
+                                </div>
+
+                                <br />
+                                <div class="my-2 text-center">
+
+                                    <h1>Placement List</h1>
+
+                                </div>
+
+                                <div class="box">
+                                    <div>
+                                        <a class="btn btn-primary" asp-action="PlacedLearners" asp-controller="LearnerPlacement"><i class="fa bi-arrow-right"></i> Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="text-center">
+
+
+                                <div class="img-hover-zoom img-hover-zoom--colorize">
+                                    <img class="shadow" src="~/Images/Stipends.jpg"
+                                         alt="Another Image zoom-on-hover effect">
+                                </div>
+
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix mb-3">
+                                </div>
+
+
+                                <div class="my-2 text-center mt-1">
+
+                                    <h1>Host Companies</h1>
+
+                                </div>
+
+                                <div class="box">
+                                    <div>
+                                        <div>
+                                            <a class="btn btn-primary" asp-action="HostCompanies" asp-controller="Company"><i class="fa bi-arrow-right"></i> Go</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="text-center">
+
+
+                                <div class="img-hover-zoom img-hover-zoom--colorize">
+                                    <img class="shadow" src="~/Images/Gallery.jpg"
+                                         alt="Another Image zoom-on-hover effect">
+                                </div>
+
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix mb-3">
+                                </div>
+
+                                <br />
+                                <div class="my-2 text-center mt-5">
+
+                                    <h1>Applications</h1>
+
+                                </div>
+
+                                <div class="box">
+                                    <div>
+                                        <div>
+                                            <a class="btn btn-primary" asp-action="Applications" asp-controller="Applications"><i class="fa bi-arrow-right"></i> Go</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="text-center">
+
+
+                                <div class="img-hover-zoom img-hover-zoom--colorize">
+                                    <img class="shadow" src="~/Images/Gallery.jpg"
+                                         alt="Another Image zoom-on-hover effect">
+                                </div>
+
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix mb-3">
+                                </div>
+
+                                <br />
+                                <div class="my-2 text-center mt-5">
+
+                                    <h1>Licenses</h1>
+
+                                </div>
+
+                                <div class="box">
+                                    <div>
+                                        <div>
+                                            <a class="btn btn-primary" asp-action="AddUserLicense" asp-controller="License"><i class="fa bi-arrow-right"></i> Go</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

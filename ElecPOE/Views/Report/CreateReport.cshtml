@@ -1,0 +1,182 @@
+﻿@model ElecPOE.Models.Report
+@using ElecPOE.Enums
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Instructor's Report<span class="text-bold"></span></span>
+        </div><br />
+        <div class="col-xl-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-file me-1 text-white"></i>
+                    <span class="text-white">Create Report / Upload<span class="text-bold"></span></span>
+                </div>
+                <div class="card-body">
+                    <form asp-action="CreateReport" enctype="multipart/form-data">
+                        <div class="row">
+
+                            <div class="alert alert-danger" role="alert" style="border-bottom-width:4px; border-bottom-color:darkred" ;>
+                                <div class="form-group col-md-12">
+                                    <label class="control-label"> Hi <span class="text-bold"> @ViewData["IName"] </span> - What would you like to do ?</label>
+                                    <div class="input-group mb-3 input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-question-octagon-fill text-danger"></i></span>
+                                        <select asp-for="Operation" required class="form-control Operation" asp-items="Html.GetEnumSelectList<eOperation>()">
+                                            <option selected="selected" value="">Select What you'd like to do</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4 ReportType">
+                                <label asp-for="ReportType" class="control-label"></label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-question-circle-fill text-primary"></i></span>
+                                    <select asp-for="ReportType" required class="form-control Type" asp-items="Html.GetEnumSelectList<ReportType>()">
+                                        <option selected="selected" value="">Select Report Type</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4 Urgency">
+                                <label class="control-label">Urgency</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-exclamation-triangle-fill text-danger"></i></span>
+                                    <select name="Urgency" class="form-control Facilitator" asp-items="Html.GetEnumSelectList<eUrgency>()">
+                                        <option selected="selected" value="">Select Level of Urgency</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4 Date">
+                                <label class="control-label">Date</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-calendar-check-fill text-primary"></i></span>
+                                    <input asp-for="Date" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4 Report">
+                                <label class="control-label">Attach Report</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-file-pdf text-danger"></i></span>
+                                    <input asp-for="DocumentFile" class="form-control" accept=".pdf" />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4 Facilitator">
+                                <label class="control-label">Facilitator</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-person text-primary"></i></span>
+                                    <select name="FacilitatorId" style="background-color:#F7DEE0" class="form-control Facilitator" asp-items="@ViewBag.UserId">
+                                        <option selected="selected" value="">Select Facilitator</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-8 module">
+                                <label asp-for="Module" class="control-label"></label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-bookmark-check-fill text-primary"></i></span>
+                                    <input asp-for="Module" class="form-control" style="background-color:#F7DEE0" />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6 activity">
+                                <label asp-for="ActivityReport"></label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-reply text-primary"></i></span>
+                                    <textarea asp-for="ActivityReport" class="form-control" text-wrap:normal" type="text" placeholder="Please add your activity report here"></textarea>
+                                    <span asp-validation-for="ActivityReport" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6 challenge">
+                                <label asp-for="Challenges"></label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-emoji-angry-fill text-danger"></i></span>
+                                    <textarea asp-for="Challenges" class="form-control" text-wrap:normal" type="text" placeholder="Please add your challenge(s) here"></textarea>
+                                    <span asp-validation-for="Challenges" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-12 recommend">
+                                <label asp-for="Recommendation"></label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-pencil-fill text-primary"></i></span>
+                                    <textarea asp-for="Recommendation" class="form-control" text-wrap:normal" type="text" placeholder="Please add your recommendation(s) here"></textarea>
+                                    <span asp-validation-for="Recommendation" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div hidden>
+                                @Html.TextBox("IDPass", ViewData["IDPass"], new {htmlAttributes = new {@class="form-control",name="IDPass"}})
+                            </div>
+
+                            <div class="form-group col-md-12 mt-3">
+                                <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+
+                                    <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                    <button type="reset" class="btn btn-outline-warning float-end"><i class="fa fa-undo"></i> Reset</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        $('.Report,.recommend,.challenge,.activity,.module,.Facilitator,.Date,.Urgency,.ReportType').hide();
+
+        $('.Operation').on('change', function () {
+
+            var selectedItem = $(".Operation").find('option:selected').text();
+
+            if (selectedItem == "I'd like to - Create My Report") {
+                $('.Report').hide();
+                $('.recommend,.challenge,.activity,.module,.Facilitator,.Date,.Urgency,.ReportType').show();
+
+            }
+            else if (selectedItem == "I'd like to - Upload My Report") {
+                $(".Report,.ReportType,.Facilitator").show();
+                $('.recommend,.challenge,.activity,.module,.Date,.Urgency').hide();
+
+            } else {
+                $('.Report,.recommend,.challenge,.activity,.module,.Facilitator,.Date,.Urgency,.ReportType').hide();
+            }
+        });
+
+
+        $(document).on("select2:open", () => {
+            document.querySelector(".select2-container--open .select2-search__field").focus()
+        });
+
+    });
+</script>

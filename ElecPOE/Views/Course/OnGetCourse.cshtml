@@ -1,0 +1,111 @@
+﻿@model IEnumerable<ElecPOE.DTO.CourseDTO>
+
+<style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .ref {
+        background-color: darkblue;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td,
+    .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #FCCFCF;
+    }
+</style>
+
+<div class="col-md-2">
+<span class="badge bg-warning text-dark">
+    <a class="mb-0 text-white fs-6" asp-action="Course" asp-controller="Course"><i class="fa bi-plus-circle"></i> Add Course</a>
+</span>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa bi-book-half me-1 text-white"></i>
+            <span class="text-white">List of Courses<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+                        <th>
+                            Action
+                        </th>
+                        <th class="text-white">Course</th>
+                        <th class="text-white">Type</th>
+                        <th class="text-white">Level</th>
+                        <th class="text-white">Credits</th>
+                        <th class="text-white">Added By</th>
+                        <th class="text-white">Added On</th>
+                        <th class="text-white">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="OnModifyCourse" asp-controller="Course" asp-route-CourseId="@item.CourseId"><i class="fa bi-folder2-open"></i> Open</a>
+                            </td>
+
+                            <td>@item.CourseName</td>
+                            <td>@item.Type</td>
+                            <td>@item.NType</td>
+                            <td>@item.Credit</td>
+                            <td>@item.CreatedBy</td>
+                            <td>@item.CreatedOn</td>
+                            <td>
+                                <a class="text-danger" asp-controller="Course" asp-action="OnCourse" asp-route-CourseId="@item.CourseId"><i class="fa fa-book"></i> Modules</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

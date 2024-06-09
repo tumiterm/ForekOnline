@@ -1,0 +1,184 @@
+﻿@model ElecPOE.DTO.LessonPlanDTO
+@using ElecPOE.Enums
+
+@{
+    ViewData["Title"] = "Approve Plan";
+}
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+</style>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+</head>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas bi-check-circle me-1 text-white"></i>
+            <span class="text-white">On Approve / Disapprove Lesson Plan<span class="text-bold"></span></span>
+        </div><br />
+
+        <div class="col-xl-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas bi-info-circle me-1 text-white"></i>
+                    <span class="text-white"> Note: By completing the below information - you're automatically approving / disapproving the lesson plan<span class="text-bold"></span></span>
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form asp-action="OnModifyPlanConfig">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="LessonPlanId" />
+                                <div class="form-group" hidden>
+                                    <label asp-for="IdPass" class="control-label"></label>
+                                    <input asp-for="IdPass" class="form-control" />
+                                    <span asp-validation-for="IdPass" class="text-danger"></span>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label asp-for="Reference" class="control-label"></label>
+                                    <input asp-for="Reference" class="form-control" />
+                                    <span asp-validation-for="Reference" class="text-danger"></span>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label asp-for="Course" class="control-label"></label>
+                                    <input asp-for="Course" class="form-control" />
+                                    <span asp-validation-for="Course" class="text-danger"></span>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label asp-for="Module" class="control-label"></label>
+                                    <input asp-for="Module" class="form-control" />
+                                    <span asp-validation-for="Module" class="text-danger"></span>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label asp-for="Phase" class="control-label"></label>
+                                    <input asp-for="Phase" class="form-control" />
+                                    <span asp-validation-for="Phase" class="text-danger"></span>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label asp-for="Funder" class="control-label"></label>
+                                    <select asp-for="Funder" class="form-control"></select>
+                                    <span asp-validation-for="Funder" class="text-danger"></span>
+                                </div>
+
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <div class="form-group col-md-4">
+                                        <label class="control-label" name="Approval">Approve ?</label>
+                                        <select name="Approval" class="form-control approve" asp-items="@Html.GetEnumSelectList<eSelection>()">
+                                            <option selected="selected" value="">-- Select Status --</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div class="form-group col-md-6">
+                                        <label class="control-label" name="Module"> Approved / Rejected By</label>
+                                        <select name="IsApprovedBy" class="form-control apprBy" asp-items="@ViewBag.IsApprovedBy">
+                                            <option selected="selected" value="">-- Select Option --</option>
+                                        </select>
+                                    </div>
+                                }
+
+
+                                <div class="form-group col-md-8 reason">
+                                    <label asp-for="Reason" class="control-label"></label>
+                                    <textarea asp-for="Reason" class="form-control" text-wrap:normal" type="text" placeholder="Please add your reason here ONLY if you have rejected the Lesson Plan"></textarea>
+                                    <span asp-validation-for="Reason" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group" hidden>
+                                    <label asp-for="Document" class="control-label"></label>
+                                    <input asp-for="Document" class="form-control" />
+                                    <span asp-validation-for="Document" class="text-danger"></span>
+                                </div>
+                                <br />
+                                 @if (User.IsInRole("Admin"))
+                                {
+                                    <div class="form-group form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                                        </label>
+                                    </div>
+
+
+                                    <div class="form-group col-md-8 mt-3">
+                                        <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                                            <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                            <button type="reset" class="btn btn-outline-warning float-end"><i class="fa fa-undo"></i> Reset</button>
+                                        </div>
+                                    </div>
+                                }
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        $('.approve,.apprBy').select2();
+
+        $('.approve').on('change', function () {
+
+            var selectedItem = $(".approve").find('option:selected').text();
+
+            if (selectedItem == "Yes - I approve") {
+
+                $('.reason').hide();
+
+            }
+            else if (selectedItem == "No - I Disapprove") {
+
+                $('.reason').show();
+
+            } else {
+
+                $('.reason').hide();
+            }
+        });
+
+        $(document).on("select2:open", () => {
+            document.querySelector(".select2-container--open .select2-search__field").focus()
+        });
+    });
+</script>

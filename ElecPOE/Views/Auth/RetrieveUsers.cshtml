@@ -1,0 +1,105 @@
+﻿@model IEnumerable<ElecPOE.Models.User>
+
+  <style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    thead{
+        background-color: darkred;
+    }
+    .card-border, .table {
+        border-color: black;
+    }
+
+    th{
+        color: white;
+    }
+
+    .ref {
+        background-color: darkblue;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-user me-1 text-white"></i>
+            <span class="text-white">Registered System Users<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="background-color:darkred">
+                    <tr>
+                        <th class="text-white">
+                            Action
+                        </th>
+                        <th class="text-white">Name</th>
+                        <th class="text-white">Surname</th>
+                        <th class="text-white">Stud/Emp Number</th>
+                        <th class="text-white">Verified?</th>
+                        <th class="text-white">Role</th>
+                        <th class="text-white">Last Login</th>
+                        <th class="text-white">Is Active?</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="OnViewUserInfo" asp-route-Id="@item.Id"> Open</a>
+                            </td>
+                            <td>@item.Name</td>
+                            <td>@item.LastName</td>
+                            <td>@item.StudentNumber</td>
+                            <td>@item.IsEmailVerified</td>
+                            <td>@item.Role</td>
+                            <td>@item.LastLoginDate</td>
+                            <td>@item.IsActive</td>
+
+                           
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br />
+
+
+
+
+

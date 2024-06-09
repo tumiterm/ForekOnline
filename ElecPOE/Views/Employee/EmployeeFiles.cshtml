@@ -1,0 +1,339 @@
+﻿
+@using ElecPOE.Enums
+@model File
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+<style>
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        border: none;
+        position: relative;
+        margin-bottom: 30px;
+        box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+    }
+
+    .l-bg-cherry {
+        background: linear-gradient(to right, #493240, #f09) !important;
+        color: #fff;
+    }
+
+    .l-bg-blue-dark {
+        background: linear-gradient(to right, #373b44, #4286f4) !important;
+        color: #fff;
+    }
+
+    .l-bg-green-dark {
+        background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+        color: #fff;
+    }
+
+    .l-bg-orange-dark {
+        background: linear-gradient(to right, #a86008, #ffba56) !important;
+        color: #fff;
+    }
+
+    .card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+        font-size: 110px;
+    }
+
+    .card .card-statistic-3 .card-icon {
+        text-align: center;
+        line-height: 50px;
+        margin-left: 15px;
+        color: #000;
+        position: absolute;
+        right: -5px;
+        top: 20px;
+        opacity: 0.1;
+    }
+
+    .l-bg-cyan {
+        background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+        color: #fff;
+    }
+
+    .l-bg-green {
+        background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+        color: #fff;
+    }
+
+    .l-bg-orange {
+        background: linear-gradient(to right, #f9900e, #ffba56) !important;
+        color: #fff;
+    }
+
+    .l-bg-cyan {
+        background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+        color: #fff;
+    }
+</style>
+
+@{
+    var fileCounts = ViewData["FileCounts"] as Dictionary<string, int>;
+
+    var timetableCount = fileCounts.ContainsKey("Timetable") ? fileCounts["Timetable"] : 0;
+
+    var trainingSchedule = fileCounts.ContainsKey("TrainingSchedule") ? fileCounts["TrainingSchedule"] : 0;
+
+    var assessmentPlan = fileCounts.ContainsKey("AssessmentPlan") ? fileCounts["AssessmentPlan"] : 0;
+
+    var studyMaterial = fileCounts.ContainsKey("StudyMaterial") ? fileCounts["StudyMaterial"] : 0;
+
+    var attendaceRegister = fileCounts.ContainsKey("Attendance") ? fileCounts["Attendance"] : 0;
+
+}
+
+<div class="col-md-2">
+    <span class="badge bg-primary">
+        <a class="text-white" style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus-circle"></i> Add File(s)</a>
+    </span>
+</div>
+<div class="col-xl-12 p-1">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-users me-1 text-white"></i>
+            <span class="text-white">Employee / Instructor Dashboard (Employee: @ViewData["Name"])<span class="text-bold"></span></span>
+        </div>
+        <div class="card-body">
+            <div class="col-md-12">
+                <div class="row ">
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-cherry">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-shopping-cart"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Training Schedule</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                            @trainingSchedule
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="OnViewFiles" asp-route-UserId="@ViewData["UserId"]" asp-route-docType="TrainingSchedule">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-blue-dark">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Timetable</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                            @timetableCount
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="OnViewFiles" asp-route-UserId="@ViewData["UserId"]" asp-route-docType="Timetable">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-green-dark">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-ticket-alt"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Assessment Plan</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                            @assessmentPlan
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="OnViewFiles" asp-route-UserId="@ViewData["UserId"]" asp-route-docType="AssessmentPlan">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-orange-dark">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Lesson Plan</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                           @ViewData["plans"]
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="OnCreatePlan" asp-controller="LessonPlanConfig" asp-route-IdPass="@ViewData["Id"]">View</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-orange-dark">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Weekly Report</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                           @ViewData["weekly"]
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="UserReports" asp-controller="Report" asp-route-IdPass="@ViewData["Id"]">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-blue-dark">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Monthly Report</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                            @ViewData["monthly"]
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="UserReports" asp-controller="Report" asp-route-IdPass="@ViewData["Id"]">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-cherry">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-shopping-cart"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Learning Material</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                            @studyMaterial
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="OnViewFiles" asp-route-UserId="@ViewData["UserId"]" asp-route-docType="StudyMaterial">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-green-dark">
+                            <div class="card-statistic-3 p-4">
+                                <div class="card-icon card-icon-large"><i class="fas fa-ticket-alt"></i></div>
+                                <div class="mb-4">
+                                    <h5 class="card-title mb-0">Attendace Registers</h5>
+                                </div>
+                                <div class="row align-items-center mb-2 d-flex">
+                                    <div class="col-8">
+                                        <h2 class="d-flex align-items-center mb-0">
+                                            @attendaceRegister
+                                        </h2>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>0% <i class="fa fa-arrow-up"></i></span>
+                                    </div>
+                                </div>
+                                <a class="text-white" asp-action="OnViewFiles" asp-route-UserId="@ViewData["UserId"]" asp-route-docType="Attendance">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: darkblue">
+                <h5 class="modal-title text-white" id="staticBackdropLabel">Facilitator Files Upload</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="EmployeeFiles" asp-controller="Employee" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label class="control-label">File Type</label>
+                            <div class="input-group mb-3 input1">
+                                <select name="Type" class="form-control Type" asp-items="Html.GetEnumSelectList<eFileType>()">
+                                    <option selected="selected" value="">Select File Type</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input asp-for="UserId" value="@ViewData["UserId"]" hidden />
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Phase</label>
+                            <div class="input-group mb-3 input1">
+                                <select name="Phase" class="form-control Type" asp-items="Html.GetEnumSelectList<ePhase>()">
+                                    <option selected="selected" value="">Select Phase</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Start Date</label>
+                            <input name="StartDate" type="date" class="form-control" />
+                        </div> 
+
+                        <div class="form-group col-md-6">
+                            <label class="control-label">Attach File</label>
+                            <input asp-for="AttachmentFile" type="file" class="form-control" />
+                        </div>
+                        
+                        <div class="form-group col-md-3">
+                            <label class="control-label">End Date</label>
+                            <input name="EndDate" type="date" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="modal-footer mt-1">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

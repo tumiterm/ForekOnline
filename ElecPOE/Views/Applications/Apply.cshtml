@@ -1,0 +1,607 @@
+﻿@using ElecPOE.Enums;
+@model ElecPOE.DTO.ApplyDTO
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+</head>
+
+<style>
+    .alert {
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-control {
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+    }
+
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .ex {
+        margin-left: 5px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+
+    .nav-tabs .nav-link.active {
+        background-color: #FFD580;
+        color: white;
+        border-top-width: 5px;
+        border-top-color: darkred;
+    }
+
+    .nav-tabs .nav-link {
+        background-color: #FFD580;
+        color: white;
+        border-top-width: 5px;
+    }
+
+        .nav-tabs .nav-link:hover {
+            background-color: coral;
+        }
+
+        .nav-tabs .nav-link:focus {
+            box-shadow: none;
+        }
+
+        .nav-tabs .nav-link.disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .nav-tabs .nav-link.next,
+        .nav-tabs .nav-link.back {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 40px;
+            border-radius: 4px;
+            margin: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+            .nav-tabs .nav-link.next:hover,
+            .nav-tabs .nav-link.back:hover {
+                background-color: #e9ecef;
+            }
+
+    .tab-content {
+        padding-bottom: 60px;
+    }
+
+    .tab-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 10px 0;
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    }
+
+</style>
+
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active m-1 fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Section A</button>
+        <button class="nav-link m-1 fw-bold" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Section B</button>
+        <button class="nav-link m-1 fw-bold" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Section C</button>
+    </div>
+</nav>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa fa-edit me-1 text-white"></i>
+            <span class="text-white">Forek Online Applications - @DateTime.Now.Year<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+           
+            <form asp-action="Apply" enctype="multipart/form-data" class="appForm">
+                <div class="col-md-12">
+                    <div class="alert alert-danger" role="alert" style="border-left-width:5px; border-left-color: darkred">
+
+                        <div class="row">
+                             <div class="form-group col-md-6">
+                            <label class="control-label" name="Course">Course Selection</label>
+                            <select asp-for="CourseId" class="form-control course" required asp-items="@ViewBag.CourseId">
+                                <option selected="selected" value="">Select Course</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                                <label class="control-label">Funder Type</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-money text-success"></i></span>
+                                    <select asp-for="FunderType" class="form-control funder" asp-items="Html.GetEnumSelectList<eFunderType>()">
+                                        <option selected="selected" value="">Funding Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Citizenship</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card text-success"></i></span>
+                                    <select asp-for="Selection" class="form-control citizen" asp-items="Html.GetEnumSelectList<eChoice>()">
+                                        <option selected="selected" value="">Are you South African?</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Study Permit Category</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text " id="basic-addon1"><i class="fa fa-book text-primary"></i></span>
+                                    <select asp-for="StudyPermitCategory" class="form-control permit" asp-items="Html.GetEnumSelectList<eCategory>()">
+                                        <option selected="selected" disabled value="">Study Permit Category</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label class="control-label">ID Number</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-sort-numeric-up-alt text-primary"></i></span>
+                                    <input asp-for="IDNumber" class="form-control idNum" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Passport Number</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-book text-primary"></i></span>
+                                    <input asp-for="PassportNumber" class="form-control pass" />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Highest Qualification</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-school text-primary"></i></span>
+                                    <select asp-for="HighestQualification" class="form-control " asp-items="Html.GetEnumSelectList<HighestQualification>()">
+                                        <option selected="selected" disabled value="">Select Option</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Attach Highest Qualification</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-file-pdf text-primary"></i></span>
+                                    <input asp-for="AplicantHighestQualFile" required class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fa fa-user me-1 text-white"></i>
+                                    <span class="text-white">Biographical Information<span class="text-bold"></span></span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">Title</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card text-primary"></i></span>
+                                                <select asp-for="ApplicantTitle" class="form-control " asp-items="Html.GetEnumSelectList<eTitle>()">
+                                                    <option selected="selected" disabled value="">Select Title</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">First Name</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-person-plus text-primary"></i></span>
+                                                <input asp-for="ApplicantName" required class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">Surname</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-file-person-fill text-primary"></i></span>
+                                                <input asp-for="ApplicantSurname" required class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">Gender</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-gender-ambiguous text-primary"></i></span>
+                                                <select asp-for="Gender" class="form-control" asp-items="Html.GetEnumSelectList<eGender>()">
+                                                    <option selected="selected" disabled value="">Select Gender</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">Attach RSA ID</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-file-pdf-fill text-primary"></i></span>
+                                                <input asp-for="ApplicantIDPassFile" required type="file" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label"></label>
+                                            <div class="mb-3 input1">
+                                                <button type="reset" class="btn btn-warning btn-block"><i class="fa fa-undo"></i> Reset</button>
+                                                <a class="btn btn-outline-danger" href="https://forek.co.za/"><i class="fa fa-window-close"></i> Exit</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row">
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Street/Complex No</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-pin-fill text-primary"></i></span>
+                                    <input asp-for="Line1" required class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Suburb</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-pin-map-fill text-primary"></i></span>
+                                    <input asp-for="StreetName" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">City</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-map-fill text-primary"></i></span>
+                                    <input asp-for="City" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Province</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-map text-primary"></i></span>
+                                    <select asp-for="Province" class="form-control" asp-items="Html.GetEnumSelectList<eProvince>()">
+                                        <option selected="selected" value="">Select Province</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Postal Code</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-sort-numeric-up text-primary"></i></span>
+                                    <input asp-for="PostalCode" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Proof of Residence</label>
+                                <div class="input-group mb-3 input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-file-pdf text-primary"></i></span>
+                                    <input asp-for="ApplicantResidenceFile" required class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fas bi-telephone me-1 text-white"></i>
+                                    <span class="text-white">Contact Details<span class="text-bold"></span></span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">Cellphone Number</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-telephone text-primary"></i></span>
+                                                <input asp-for="Cellphone" required class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label">Email Address</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope text-primary"></i></span>
+                                                <input asp-for="Email" required class="form-control" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label class="control-label"></label>
+                                            <div class="mb-3 input1">
+                                                <button type="reset" class="btn btn-warning btn-block"><i class="fa fa-undo"></i> Reset</button>
+                                                <a class="btn btn-outline-danger" href="https://forek.co.za/"><i class="fa fa-window-close"></i> Exit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="row">
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Guardian First Name</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user-circle text-primary"></i></span>
+                                    <input asp-for="GuardianFirstName" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Guardian Surname</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user text-primary"></i></span>
+                                    <input asp-for="GuardianLastName" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Relationship</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-link text-primary"></i></span>
+                                    <select asp-for="GuardianRelationship" class="form-control" asp-items="Html.GetEnumSelectList<eRelationship>()">
+                                        <option selected="selected" value="">Select Relationship</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Guardian Cellphone</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-telephone text-primary"></i></span>
+                                    <input asp-for="GuardianCellphone" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="control-label">Guardian RSA ID</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-file-pdf text-primary"></i></span>
+                                    <input asp-for="GuardianIDFile" required class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="card mb-4 mt-3">
+                                <div class="card-header">
+                                    <i class="fas fa-ambulance me-1 text-white"></i>
+                                    <span class="text-white">Applicant Medical Aid Information<span class="text-bold"></span></span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Medical Aid Name</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-ambulance text-primary"></i></span>
+                                                <input asp-for="MedicalName" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Member Number</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-sort-numeric-up text-primary"></i></span>
+                                                <input asp-for="MemberNumber" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Disability</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-wheelchair text-primary"></i></span>
+                                                <input asp-for="Disability" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label class="control-label">Telephone</label>
+                                            <div class="input-group mb-3 input1">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fa bi-telephone text-primary"></i></span>
+                                                <input asp-for="Telephone" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <div class="form-group col-md-12" style="background-color:whitesmoke;">
+                                <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                <button type="reset" class="btn btn-outline-warning"><i class="fa fa-undo"></i> Reset</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               
+            </form>
+        </div>
+    </div>
+</div>
+<div class="tab-buttons">
+    <button class="btn btn-primary back m-1" id="nav-back-tab" type="button" role="tab" aria-controls="nav-home" aria-selected="true" disabled><i class="fa fa-arrow-left"></i> Back</button>
+    <button class="btn btn-primary next" id="nav-next-tab" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-arrow-right"></i> Next</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+
+    $('.course').select2();
+
+    var tabList = document.querySelectorAll('.nav-tabs .nav-link');
+
+    var backButton = document.getElementById('nav-back-tab');
+
+    var nextButton = document.getElementById('nav-next-tab');
+    var activeIndex = 0;
+
+    backButton.addEventListener('click', function () {
+
+        if (activeIndex > 0) {
+
+            tabList[activeIndex].classList.remove('active');
+
+            tabList[activeIndex - 1].classList.add('active');
+
+            activeIndex--;
+
+            updateButtonStates();
+
+            updateTabContent();
+        }
+    });
+
+    nextButton.addEventListener('click', function () {
+
+        if (activeIndex < tabList.length - 1) {
+
+            tabList[activeIndex].classList.remove('active');
+
+            tabList[activeIndex + 1].classList.add('active');
+
+            activeIndex++;
+
+            updateButtonStates();
+
+            updateTabContent();
+        }
+    });
+
+    function updateButtonStates() {
+
+        backButton.disabled = activeIndex === 0;
+
+        nextButton.disabled = activeIndex === tabList.length - 1;
+    }
+
+    $(document).on("select2:open", () => {
+
+        document.querySelector(".select2-container--open .select2-search__field").focus()
+
+    });
+
+    function updateTabContent() {
+
+        var tabContentList = document.querySelectorAll('.tab-content .tab-pane');
+        
+        tabContentList.forEach(function (tabContent, index) {
+
+            if (index === activeIndex) {
+
+                tabContent.classList.add('show', 'active');
+
+            } else {
+
+                tabContent.classList.remove('show', 'active');
+            }
+        });
+    }
+
+    $('.citizen').on('change', function () {
+
+        var selectedItem = $(".citizen").find('option:selected').text();
+
+        if (selectedItem == "Yes") {
+
+          $('.pass').attr('readonly', 'true');
+
+          $('.pass').css('background-color', '#FFD580');
+
+          $('.permit').attr('readonly', 'true');
+
+          $('.permit').css('background-color', '#FFD580');
+
+          $('.idNum').attr('readonly', false);
+
+          $('.idNum').css('background-color', '#FFFFFF');
+
+        }else if(selectedItem == "No"){
+
+          $('.pass').attr('readonly', false);
+
+          $('.pass').css('background-color', '#FFFFFF');
+
+          $('.permit').attr('readonly', false);
+
+          $('.permit').css('background-color', '#FFFFFF');
+
+          $('.idNum').attr('readonly', 'true');
+
+          $('.idNum').css('background-color', '#FFD580');
+
+        }
+    });
+
+    $('.funder').on('change', function () {
+
+        var selectedItem = $(".funder").find('option:selected').text();
+
+        if (selectedItem == "No Funding") {
+
+            $(".appForm :input").prop("disabled", true);
+
+            $(".funder").prop("disabled", false);
+
+            Swal.fire({
+            icon: 'error',
+            title: 'Unable to proceed',
+            text: 'Unfortunately, all our programmes requires you to pay!',
+            footer: '<a href="">All our programmes requires you to pay</a>'
+            })
+
+        } else {
+
+             $(".appForm :input").prop("disabled", false);
+           
+        }
+    });
+
+
+</script>
+

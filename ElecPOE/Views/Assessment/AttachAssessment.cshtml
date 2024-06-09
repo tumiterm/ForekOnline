@@ -1,0 +1,385 @@
+﻿@using ElecPOE.Enums
+@model dynamic
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+</head>
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    thead, .header2 {
+        background-color: #000080;
+    }
+
+    .ex {
+        margin-left: 5px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+
+
+    th {
+        color: white;
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Assessment Administration (@ViewData["course"])<span class="text-bold"></span></span>
+        </div><br />
+        
+        @if (User.IsInRole("Admin") || User.IsInRole("Facilitator") || User.IsInRole("SuperAdmin"))
+        {
+            <div class="col-xl-12 p-1">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-file me-1 text-white"></i>
+                        <span class="text-white">Upload Student Assessments<span class="text-bold"></span></span>
+                    </div>
+
+                    <div class="card-body">
+                        <form enctype="multipart/form-data" id="AssessmentForm" asp-action="AttachAssessment">
+                            <div class="row">
+
+                                <div class="form-group col-md-2">
+                                    <label class="control-label">Assessment Type</label>
+                                    <div class="input-group mb-3 input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-question-circle-fill text-primary"></i></span>
+                                        <select name="Type" class="form-control Type" asp-items="Html.GetEnumSelectList<eAssessmentAdministration>()">
+                                            <option selected="selected" value="">Select Assessment</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <label class="control-label">Module</label>
+                                    <div class="input-group mb-3 input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-journal-bookmark-fill text-primary"></i></span>
+                                        <select name="Module" class="form-control DocName" asp-items="Html.GetEnumSelectList<eModule>()">
+                                            <option selected="selected" value="">Select Module</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                
+
+                                <div class="form-group col-md-3">
+                                    <label class="control-label">Module Description</label>
+                                    <select name="Module" class="form-control Modules" asp-items="@ViewBag.ModuleId">
+                                        <option selected="selected" value="@ViewBag.ModuleId">Select Module</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <label class="control-label">Attempt</label>
+                                    <div class="input-group mb-3 input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-sort-numeric-up text-primary"></i></span>
+                                        <select name="Attempts" class="form-control" asp-items="Html.GetEnumSelectList<eAttempts>()">
+                                            <option selected="selected" value="">Select Attempt</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <label class="control-label">Document</label>
+                                    <input name="AttachmentFile" required type="file" class="form-control" />
+                                </div>
+
+                                <div class="form-group col-md-1">
+                                    <label class="control-label">Percentage</label>
+                                    <div class="input-group mb-3 input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-percent text-primary"></i></span>
+                                        <input name="Percentage" class="form-control" />
+                                    </div>
+                                </div>
+
+
+                                <div hidden>
+                                    @Html.TextBox("StudentNumber", ViewData["StudentNumber"], new {htmlAttributes = new {@class="form-control StudentNumber",name="StudentNumber"}})
+                                    @Html.TextBox("StudentId", ViewData["StudentId"], new {htmlAttributes = new {@class="form-control",name="StudentId"}})
+                                </div>
+                                <div class="form-group col-md-12 mt-3">
+                                    <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                                        <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                        <a class="btn btn-outline-danger float-end ex" asp-action="StudentDetail" asp-controller="Student" asp-route-StudentNumber="@ViewData["StudentNumber"]"><i class="fa fa-window-close"></i> Exit</a>
+                                        <button type="reset" class="btn btn-outline-warning float-end"><i class="fa fa-undo"></i> Reset</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="col-xl-12 p-2">
+            <div class="card mb-4">
+                <div class="card-header header2">
+                    <i class="fas fa-file me-1 text-white"></i>
+                    <span class="text-white">Student Uploaded Assessments - @ViewData["name"]<span class="text-bold"></span></span>
+                </div>
+                <div class="card-body">
+                    <table class="table mr-5 ml-5 table-striped" id="datatablesSimple">
+                        <thead class="head">
+                            <tr>
+                                <th class="text-white">
+                                    Action
+                                </th>
+
+                                <th class="text-white">
+                                    Assessment Type
+                                </th>
+                                <th class="text-white">
+                                    Attempt
+                                </th>
+
+                                <th class="text-white">
+                                    Module
+                                </th>
+
+                                <th class="text-white">
+                                    Marks Obtained
+                                </th>
+
+                                <th class="text-white">
+                                    Attached By
+                                </th>
+
+                                <th class="text-white">
+                                    Attached On
+                                </th>
+                                <th class="text-white">
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (AssessmentAttachment attachment in Model.FileModel)
+                            {
+                                <tr>
+                                    @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                                    {
+
+                                        <td>
+                                            <a href="#" data-id="@attachment.AttachmentId" data-studId="@attachment.StudentNumber" class="text-danger rem"><i class="fa bi-trash-fill"></i> Remove </a>
+                                        </td>
+                                    }else
+                                    {
+                                        <td>
+                                            <a  class="text-danger" href="#"><i class="fa fa-ban"></i> NOT Removable</a>
+                                        </td>
+                                    }
+
+                                  
+                                    <td>
+                                        @attachment.Type
+                                    </td>
+
+                                    <td>
+                                        @attachment.Attempts
+                                    </td>
+
+                                    <td>
+                                        @attachment.Module
+                                    </td>
+
+                                    <td>
+                                        <span class="badge bg-info text-dark">@attachment.Percentage %</span>
+                                    </td>
+
+                                    <td>
+                                        @attachment.CreatedBy
+                                    </td>
+
+                                    <td>
+                                        @attachment.CreatedOn
+                                    </td>
+
+                                    <td>
+                                        <a class="text-primary" href="@Url.Action("AttachmentDownload", "Assessment",new {filename  = attachment.Document})"><i class="fa fa-download"></i> Download</a>
+
+                                        <a class="btn btn-outline-secondary preview-btn" data-attachment-id="@attachment.AttachmentId" data-bs-toggle="modal" data-bs-target="#previewStaticBackdrop"> Preview</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Preview Modal -->
+<div class="modal fade" id="previewStaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:darkred">
+                <h5 class="modal-title text-white" id="staticBackdropLabel">Preview Document</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                @*<iframe src="~/Assessments/@Model.Document" style="width: 90%; height:75%; border:none" type="application/pdf"></iframe>*@
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(document).ready(function () {
+
+        $('.Modules').select2();
+
+        $('.rem').click(function () {
+             
+            var AttachmentId = $(this).data('id');
+
+            var formDataArray = $('#AssessmentForm').serializeArray();
+
+            var studentNumberValue = null;
+
+            $.each(formDataArray, function(index, item){
+
+                if(item.name === "StudentNumber"){
+
+                    studentNumberValue = item.value;
+
+                    return false;
+                }
+            });
+
+              Swal.fire({
+
+              title: 'Assessment Removal',
+
+              text: "You won't be able to revert this!",
+
+              icon: 'warning',
+
+              showCancelButton: true,
+
+              confirmButtonColor: '#3085d6',
+
+              cancelButtonColor: '#d33',
+
+              confirmButtonText: 'Yes, delete it!'
+
+              }).then((result) => {
+
+                if (result.isConfirmed) {
+
+                $.ajax({
+
+                    type: "POST",
+
+                    url: "/Assessment/RemoveDocument/" + AttachmentId,
+
+                    data: "",
+
+                    contextType: "application/json; charset=utf-8",
+
+                    dataType: "json",
+
+                    success: OnSuccessResult,
+
+                    error: OnError
+
+                });
+                }
+
+              })
+
+            function OnSuccessResult(data) {
+
+                Swal.fire({
+
+                    icon: 'success',
+
+                    title: 'Assessment Removal',
+
+                    text: 'Assessment successfully deleted',
+
+                })
+
+                location.href = "/Assessment/AttachAssessment?StudentNumber="+ studentNumberValue;
+            }
+
+            function OnError(err) {
+
+                Swal.fire({
+
+                    icon: 'error',
+
+                    title: 'Assessment Removal',
+
+                    text: 'An Error Occured: Unable to delete user!',
+
+                    footer: 'Error'
+                })
+            }
+
+
+        });
+
+
+    $(document).on("select2:open", () => {
+        document.querySelector(".select2-container--open .select2-search__field").focus()
+    });
+
+
+    $('.preview-btn').click(function () {
+            var attachmentId = $(this).data('attachment-id');
+            $.ajax({
+                url: '/Assessment/OnPreviewAssessment',
+                method: 'GET',
+            data: { attachmentId: attachmentId },
+                success: function (response) {
+                  
+                    $('#previewStaticBackdrop .modal-body').html(response);
+                  
+                    //$('#previewStaticBackdrop').modal('show');
+                },
+                error: function (xhr) {
+                    console.log(xhr.responseText);
+                }
+            });
+        });
+
+    });
+
+
+</script>
+
+

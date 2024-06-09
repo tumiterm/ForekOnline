@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Assessment\OnPreviewAssessment.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
+    <PackageReference Include="RestSharp" Version="108.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Docs\" />
+    <Folder Include="wwwroot\Assessments\" />
+    <Folder Include="wwwroot\Gallery\" />
+    <Folder Include="wwwroot\LP\" />
+    <Folder Include="wwwroot\HighestQualification\" />
+    <Folder Include="wwwroot\AppIDPass\" />
+    <Folder Include="wwwroot\GuardianID\" />
+    <Folder Include="wwwroot\EmpFiles\" />
+    <Folder Include="wwwroot\Residence\" />
+    <Folder Include="wwwroot\Visitation\" />
+    <Folder Include="wwwroot\Reports\" />
+    <Folder Include="wwwroot\Statements\" />
+    <Folder Include="wwwroot\Results\" />
+    <Folder Include="wwwroot\Training\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Assessment\OnPreviewAssessment.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Assessment\OnPreviewAssessment.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Assessment\OnPreviewAssessment.cshtml" />
+  </ItemGroup>
+
+</Project>

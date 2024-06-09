@@ -1,0 +1,110 @@
+﻿@model IEnumerable<ElecPOE.Models.File>
+@using ElecPOE.Utlility
+
+
+<style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td,
+    .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #FCCFCF;
+    }
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas bi-mortarboard-fill me-1 text-white"></i>
+            <span class="text-white">Facilitator Uploaded Files<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+                        <th>
+                            Action
+                        </th>
+                        <th class="text-white">Type</th>
+                        <th class="text-white">Phase</th>
+                        <th class="text-white">Start Date</th>
+                        <th class="text-white">End Date</th>
+                        <th class="text-white">CreatedOn</th>
+                        <th class="text-white">CreatedBy</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="AttachmentDownload" asp-route-filename="@item.Attachment"><i class="fa bi-download"></i> Download</a>
+                            </td>
+                            <td>@Helper.GetDisplayName(item.Type)</td>
+                            <td>@Helper.GetDisplayName(item.Phase)</td>
+                            <td>@item.StartDate.Value.ToShortDateString()</td>
+                            <td>@item.EndDate.Value.ToShortDateString()</td>
+                            <td>@item.CreatedOn</td>
+                            <td>@item.CreatedBy</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

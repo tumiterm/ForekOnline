@@ -1,0 +1,114 @@
+﻿@model IEnumerable<ElecPOE.DTO.VisitationDTO>
+
+<style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .ref {
+        background-color: darkblue;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td,
+    .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #FCCFCF;
+    }
+</style>
+
+<div class="col-md-2">
+    <span class="badge bg-primary">
+        <a asp-action="Visitation" asp-route-CompanyId="@ViewData["CompanyId"]" class="text-white" style="cursor:pointer"><i class="fa fa-plus-circle"></i> Add New Visitation</a>
+    </span>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa fa-archway me-1 text-white"></i>
+            <span class="text-white">Visitation List for - @ViewData["result"]<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+                        <th>
+                            Action
+                        </th>
+                        <th class="text-white">Mentor</th>
+                        <th class="text-white">Visited By</th>
+                        <th class="text-white">Visit Date</th>
+                        <th class="text-white">Has Report</th>
+                        <th class="text-white">File</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="OnModifyVisitation" asp-route-VisitId="@item.VisitId"><i class="fa bi-folder2-open"></i> Open</a>
+                            </td>
+                            <td>@item.Mentor</td>
+                            <td>@item.VisitBy</td>
+                            <td>@item.Date</td>
+                            <td>@item.HasReport</td>
+                            <td>
+
+                                @if (item.HasReport)
+                                {
+                                    <a class="text-primary" asp-action="AttachmentDownload" asp-route-filename="@item.Report"><i class="fa bi-download"></i> Download</a>
+
+                                }else{
+                                  <a class="text-danger" asp-controller="Visit" asp-route-CourseId="@item.VisitId"><i class="fa fa-ban"></i> Not Allowed!!</a>
+                                }
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

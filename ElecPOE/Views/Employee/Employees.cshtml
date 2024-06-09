@@ -1,0 +1,390 @@
+﻿<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    /*----  Main Style  ----*/
+    #cards_landscape_wrap-2 {
+        text-align: center;
+        background: #F7F7F7;
+    }
+
+        #cards_landscape_wrap-2 .container {
+            padding-top: 10px;
+            padding-bottom: 100px;
+        }
+
+        #cards_landscape_wrap-2 a {
+            text-decoration: none;
+            outline: none;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer {
+            border-radius: 5px;
+        }
+
+            #cards_landscape_wrap-2 .card-flyer .image-box {
+                background: #ffffff;
+                overflow: hidden;
+                box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+                border-radius: 5px;
+            }
+
+                #cards_landscape_wrap-2 .card-flyer .image-box img {
+                    -webkit-transition: all .9s ease;
+                    -moz-transition: all .9s ease;
+                    -o-transition: all .9s ease;
+                    -ms-transition: all .9s ease;
+                    width: 100%;
+                    height: 200px;
+                }
+
+            #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+                opacity: 0.7;
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+                transform: scale(1.15);
+            }
+
+            #cards_landscape_wrap-2 .card-flyer .text-box {
+                text-align: center;
+            }
+
+                #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+                    padding: 30px 18px;
+                }
+
+        #cards_landscape_wrap-2 .card-flyer {
+            background: #FFFFFF;
+            margin-top: 50px;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -ms-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+        }
+
+            #cards_landscape_wrap-2 .card-flyer:hover {
+                background: #fff;
+                box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+                -webkit-transition: all 0.2s ease-in;
+                -moz-transition: all 0.2s ease-in;
+                -ms-transition: all 0.2s ease-in;
+                -o-transition: all 0.2s ease-in;
+                transition: all 0.2s ease-in;
+                margin-top: 50px;
+            }
+
+            #cards_landscape_wrap-2 .card-flyer .text-box p {
+                margin-top: 10px;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                font-size: 14px;
+                letter-spacing: 1px;
+                color: #000000;
+            }
+
+            #cards_landscape_wrap-2 .card-flyer .text-box h6 {
+                margin-top: 0px;
+                margin-bottom: 4px;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: 'Roboto Black', sans-serif;
+                letter-spacing: 1px;
+                color: #00acc1;
+            }
+</style>
+<div class="col-md-4">
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-building-o me-1 text-white"></i>
+            <span class="text-white">Forek Institute Departments<span class="text-bold"></span></span>
+        </div><br />
+
+        <div class="col-xl-12">
+            <div class="card mb-4 m-2">
+                <div class="card-header">
+                    <i class="fas fa-building me-1 text-white"></i>
+                    <span class="text-white">Employees Per Department<span class="text-bold"></span></span>
+                </div>
+                <div class="card-body">
+                    <div id="cards_landscape_wrap-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Electrical">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Electrical.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Electrical</h6>
+                                                    <p>
+                                                        TG Masombuka - <span class="badge bg-danger">HOD</span><br />
+                                                        L Gamede - <span class="badge bg-primary">Instructor</span><br />
+                                                        A Chabalala - <span class="badge bg-primary">Instructor</span><br />
+                                                        P Dube - <span class="badge bg-primary">Instructor</span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Plumbing">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/plumber_1.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Plumbing</h6>
+                                                    <p>
+                                                    <p>
+                                                        G Hlungwane - <span class="badge bg-danger">HOD</span><br />
+                                                        P Mgwenya - <span class="badge bg-primary">Instructor</span><br />
+                                                        S Mabuza - <span class="badge bg-primary">Instructor</span><br />
+                                                        J Mbokodo - <span class="badge bg-primary">Instructor</span><br />
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Welding">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Weld.jpg" />
+                                                </div>
+
+                                                <div class="text-container">
+                                                    <h6>Welding</h6>
+                                                    <p>
+                                                        C Chidakwa - <span class="badge bg-primary">HOD</span><br />
+                                                        B Mokgoshi - <span class="badge bg-primary">Admin</span><br />
+                                                        B Nkuna - <span class="badge bg-primary">Instructor</span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Engineering">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Engineering2.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>ENGINEERING</h6>
+                                                    <p>
+
+                                                        S Mahlinza - <span class="badge bg-primary">Instructor</span><br />
+                                                        M Mamabolo - <span class="badge bg-primary">Instructor</span><br />
+                                                        <span></span><br />
+                                                        <span></span><br />
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Environmental">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Environmental.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Agriculture</h6>
+                                                    <p>
+                                                        CT Mumiriki - <span class="badge bg-primary">Instructor</span><br />
+                                                        T Nyathi - <span class="badge bg-primary">Undefined</span><br />
+                                                        <span></span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Operations">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Operations.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Operations</h6>
+                                                    <p>
+                                                    <p>
+                                                        Z Nyuliwe - <span class="badge bg-primary">Instructor</span><br />
+                                                        B Mashego - <span class="badge bg-primary">Instructor</span><br />
+                                                       J Mkhosi - <span class="badge bg-primary">Instructor</span><br />
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Health">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Health.jpg" alt="" />
+                                                </div>
+
+                                                <div class="text-container">
+                                                    <h6>OHS</h6>
+                                                    <p>
+                                                        G Simelane - <span class="badge bg-primary">Instructor</span><br />
+                                                        <span class="badge bg-primary"></span>
+                                                        <br /><span class="badge bg-primary"></span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Training">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Training.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Training</h6>
+                                                    <p>
+                                                        L Sibiya - <span class="badge bg-danger">Manager</span><br />
+                                                        L Mthombothi  - <span class="badge bg-primary">Admin</span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Corporate">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Corporate.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Corporate</h6>
+                                                    <p>
+                                                    <p>
+                                                        E Chinyuke - <span class="badge bg-danger">CEO</span><br />
+                                                        T Nkosi - <span class="badge bg-primary">CEO's PA'</span><br />
+                                                        P Phiri - <span class="badge bg-primary">HR</span><br /><br />
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Finance">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Finance.jpg" alt="" />
+                                                </div>
+
+                                                <div class="text-container">
+                                                    <h6>Finance</h6>
+                                                    <p>
+                                                        SF Mawelele - <span class="badge bg-primary">Bookkeeper</span><br />
+                                                        SH Matjie - <span class="badge bg-primary">Manager</span><br /><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="ICT">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/ICT.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>ICT</h6>
+                                                    <p>
+                                                        IF Oliphant - <span class="badge bg-danger">Manager</span><br />
+                                                        M Langa - <span class="badge bg-warning">System Admin</span><br />
+                                                        A Sikhosana - <span class="badge bg-warning">ICT Officer</span><br />
+                                                        I Ngomane - <span class="badge bg-warning">System Admin</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a asp-action="OnGetDeptEmployees" asp-controller="Employee" asp-route-Dept="Marketing">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="~/Images/Marketing.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Marketing</h6>
+                                                    <p>
+
+                                                        M Khoza - <span class="badge bg-primary">Marketing Officer</span><br />
+                                                        <br /><span class="badge bg-primary"></span><br /> <br />
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

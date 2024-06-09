@@ -1,0 +1,129 @@
+﻿@model ElecPOE.Models.Placement
+@using ElecPOE.Enums
+
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .res {
+        margin-right: 10px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+<div class="col-md-4">
+<a class="text-primary fw-bold" asp-action="PlacedLearners" asp-controller="LearnerPlacement"><i class="fa bi-list-check"></i> Learner List</a>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa bi-building me-1 text-white"></i>
+            <span class="text-white">Learner Placement<span class="text-bold"></span></span>
+        </div>
+        <div class="card-body">
+            <form asp-action="PlaceLearner">
+                <div class="row">
+                    <div class="col-xl-6 bod">
+                        <div class="card-body">
+                            <div class="form-group col-md-12">
+                                <label class="control-label">Student</label>
+                                <div class="input-group input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-graduation-cap text-primary"></i></span>
+                                    <input asp-for="Student" class="form-control fw-bold" value="@ViewData["StudInfo"]" style="background-color: rgb(255, 213, 128)" readonly />
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <label class="control-label">Host Company</label>
+                                <div class="input-group mb- input1">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa bi-building text-primary"></i></span>
+                                    <select asp-for="CompanyId" class="form-control" asp-items="@ViewBag.CompanyId">
+                                        <option selected="selected" value="">Select Company</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">Placement Status</label>
+                                    <div class="input-group input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa bi-question-circle text-primary"></i></span>
+                                        <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<eStatus>()">
+                                            <option selected="selected" value="">Select Option</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">Campus Mentor</label>
+                                    <div class="input-group  input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-users text-primary"></i></span>
+                                        <select asp-for="PlacedBy" class="form-control" asp-items="@ViewBag.UserId">
+                                            <option selected="selected" value="">Select Option</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">Start Date</label>
+                                    <div class="input-group  input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar text-primary"></i></span>
+                                        <input asp-for="StartDate" type="date" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="control-label">End Date</label>
+                                    <div class="input-group  input1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar text-primary"></i></span>
+                                        <input asp-for="EndDate" type="date" class="form-control" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-group mt-2">
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" asp-for="SendNotification" style="background-color:rgb(255, 213, 128)" />
+                                                @Html.DisplayNameFor(model => model.SendNotification)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <input asp-for="StudentId" asp-route-StudentNumber="@ViewData["StudentId"]" value="@ViewData["StudentId"]" hidden />
+
+                            <div class="form-group col-md-12 mt-3" style="background-color:whitesmoke;">
+                                <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                <a class="btn btn-outline-danger float-end" asp-action="StudentList" asp-controller="Student"><i class="fa fa-window-close"></i> Exit</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card-body mb-4">
+                            <img id="output" src="~/Images/6308.jpg" class="form-control" height="350px" style="border:none" />
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

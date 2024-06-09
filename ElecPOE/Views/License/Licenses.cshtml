@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ElecPOE.DTO.LicenseDTO>
+@using ElecPOE.Utlility
+
+<link rel="stylesheet" href="~/css/tblStyles.css" />
+<div class="col-md-2">
+    <span class="badge bg-primary text-dark">
+        <a class="mb-0 text-white" asp-action="AddUserLicense" asp-controller="License" style="cursor:pointer"><i class="fa fa-plus"></i> Add Licenses</a>
+    </span>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa fa-file me-1 text-white"></i>
+            <span class="text-white">License Collection<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+
+                        <th class="text-white"></th>
+                        <th class="text-white">User</th>
+                        <th class="text-white">ID Number</th>
+                        <th class="text-white">License</th>
+                        <th class="text-white">IssuedOn</th>
+                        <th class="text-white">ExpiresOn</th>
+                        <th class="text-white">Attempt</th>
+                        <th class="text-white">Company</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>
+                                <a class="text-primary" asp-action="LicenseInfo" asp-route-LicenseId="@item.LicenseId"> Open</a>
+                            </td>
+
+                            <td>@item.Name @item.LastName</td>
+                            <td>@item.IDNumber</td>
+                            <td>@item.LicenseName</td>
+                            <td>@item.DateOfIssue.ToShortDateString()</td>
+                            <td>@item.DateOfExpiry.ToShortDateString()</td>
+                            <td>@item.Frequency</td>
+                            <td>@item.Company</td>
+
+
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

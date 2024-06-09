@@ -1,0 +1,217 @@
+﻿@model IEnumerable<ElecPOE.Models.Module>
+@using ElecPOE.Enums
+
+<style>
+
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead, .header2 {
+        background-color: #000080;
+    }
+    th{
+        color: white;
+    }
+
+    .ref {
+        background-color: darkblue;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+    .table-striped>tbody>tr:nth-child(odd)>td, 
+    .table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #FCCFCF; 
+ }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+</style>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Course Registration & Management<span class="text-bold"></span></span>
+        </div><br />
+
+        <div class="col-xl-12 p-2">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-book me-1 text-white"></i>
+                    <span class="text-white">Course Management & Details<span class="text-bold"></span></span>
+                </div>
+
+                <div class="card-body">
+                    <form asp-action="OnCourse">
+                        <div class="row">
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Course Name</label>
+                                <input name="Name" required class="form-control" value="@ViewData["CourseName"]" disabled/>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Course Type</label>
+                                <input name="Type" required class="form-control" value="@ViewData["Type"]" disabled />
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">NQF Level</label>
+                                <input name="NQFLevel" required class="form-control" value="@ViewData["NQFLevel"]" disabled />
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label class="control-label">Course Credit</label>
+                                <input name="CourseCredit" required class="form-control" value="@ViewData["Credit"]"  disabled/>
+                            </div>
+
+                            <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" class="btn btn-warning" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa bi-plus-circle"></i> Add Module</button>
+                                <button type="button" class="btn btn-outline-danger float-end"><i class="fa bi-window-x"></i> Exit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header header2">
+            <i class="fas bi-book-fill me-1 text-white"></i>
+            <span class="text-white">@ViewData["CourseName"] Modules<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+                        <th>
+                            Action
+                        </th>
+                        <th class="text-white">Module Name</th>
+                        <th class="text-white">NQF Level</th>
+                        <th class="text-white">Credits</th>
+                        <th class="text-white">Is Active ?</th>
+                        <th class="text-white">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="OnModifyCourse1" asp-controller="Course" asp-route-StudentNumber="@item.ModuleId"><i class="fa bi-envelope-check"></i> Open</a> 
+                            </td>
+                            <td>@item.ModuleName</td>
+                            <td>@item.NQFLevel</td>
+                            <td>@item.Credit</td>
+                            <td>@item.IsActive</td>
+                            <td>
+                                <a class="text-danger" asp-action="RemoveModule" asp-route-ModuleId="@item.ModuleId"><i class="fa bi-trash-fill"></i> Remove</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:darkred">
+                <h5 class="modal-title text-white" id="staticBackdropLabel">Add Course Modules</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="AddCourseModule" asp-controller="Module" method="post">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="control-label">Module Name</label>
+                            <input name="ModuleName" class="form-control" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="control-label">Module Credit</label>
+                            <input name="Credit" class="form-control" />
+                        </div>
+
+                        <div hidden>
+                            @Html.TextBox("CourseIdFK", ViewData["CourseIdFK"], new {htmlAttributes = new {@class="form-control",name="CourseIdFK"}})
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <label class="control-label">NQF Level</label>
+                            <select name="NQFLevel" class="form-control Type" asp-items="Html.GetEnumSelectList<eNQF>()">
+                                <option selected="selected" value="">Select NQF Level</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-6" hidden>
+                            <label class="control-label">Module Credit</label>
+                            <input name="CourseTypeFK" class="form-control" value="@ViewData["CourseIdFK"]" />
+                        </div>
+
+                        <div class="modal-footer mt-1">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

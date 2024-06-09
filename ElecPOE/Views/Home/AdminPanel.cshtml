@@ -1,0 +1,246 @@
+﻿<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    /*----  Main Style  ----*/
+    #cards_landscape_wrap-2 {
+        text-align: center;
+        background: #F7F7F7;
+    }
+
+        #cards_landscape_wrap-2 .container {
+            padding-top: 10px;
+            padding-bottom: 100px;
+        }
+
+        #cards_landscape_wrap-2 a {
+            text-decoration: none;
+            outline: none;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer {
+            border-radius: 5px;
+        }
+
+            #cards_landscape_wrap-2 .card-flyer .image-box {
+                background: #ffffff;
+                overflow: hidden;
+                box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+                border-radius: 5px;
+            }
+
+                #cards_landscape_wrap-2 .card-flyer .image-box img {
+                    -webkit-transition: all .9s ease;
+                    -moz-transition: all .9s ease;
+                    -o-transition: all .9s ease;
+                    -ms-transition: all .9s ease;
+                    width: 100%;
+                    height: 200px;
+                }
+
+            #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+                opacity: 0.7;
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+                transform: scale(1.15);
+            }
+
+            #cards_landscape_wrap-2 .card-flyer .text-box {
+                text-align: center;
+            }
+
+                #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+                    padding: 30px 18px;
+                }
+
+        #cards_landscape_wrap-2 .card-flyer {
+            background: #FFFFFF;
+            margin-top: 50px;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -ms-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+        }
+
+            #cards_landscape_wrap-2 .card-flyer:hover {
+                background: #fff;
+                box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+                -webkit-transition: all 0.2s ease-in;
+                -moz-transition: all 0.2s ease-in;
+                -ms-transition: all 0.2s ease-in;
+                -o-transition: all 0.2s ease-in;
+                transition: all 0.2s ease-in;
+                margin-top: 50px;
+            }
+
+            #cards_landscape_wrap-2 .card-flyer .text-box p {
+                margin-top: 10px;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                font-size: 14px;
+                letter-spacing: 1px;
+                color: #000000;
+            }
+
+            #cards_landscape_wrap-2 .card-flyer .text-box h6 {
+                margin-top: 0px;
+                margin-bottom: 4px;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: 'Roboto Black', sans-serif;
+                letter-spacing: 1px;
+                color: #00acc1;
+            }
+</style>
+<div class="col-md-4">
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Admin Panel Statistics<span class="text-bold"></span></span>
+        </div><br />
+
+        <div class="col-xl-12">
+            <div class="card mb-4 m-2">
+                <div class="card-header">
+                    <i class="fas fa-file me-1 text-white"></i>
+                    <span class="text-white">File Upload Count<span class="text-bold"></span></span>
+                </div>
+                <div class="card-body">
+                    <div id="cards_landscape_wrap-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a href="">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Assessments</h6>
+                                                    <p>
+                                                        Total Formatives Uploaded - <span class="badge bg-danger">@ViewData["Formative"]</span>
+                                                        Total Summatives Uploaded - <span class="badge bg-danger">@ViewData["Summative"]</span>
+                                                       @* Total Practicals Uploaded - <span class="badge bg-danger">@ViewData["Practical"]</span>
+                                                        Total Practicals Uploaded - <span class="badge bg-danger">@ViewData["IISA"]</span>*@
+                                                   </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a href="">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="https://cdn.pixabay.com/photo/2018/04/09/19/55/low-poly-3305284_960_720.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Learner Documents</h6>
+                                                     <p>
+                                                        Total ID's Uploaded - <span class="badge bg-primary">@ViewData["ID"]</span><br />
+                                                        Total CV's Uploaded - <span class="badge bg-primary">@ViewData["CV"]</span><br />
+                                                        Total Matrics Uploaded - <span class="badge bg-primary">@ViewData["Matric"]</span><br />
+                                                        Guardians ID's Uploaded - <span class="badge bg-primary"> @ViewData["Guardian"]</span>
+                                                   </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a href="">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png" alt="" />
+                                                </div>
+
+                                                <div class="text-container">
+                                                    <h6>Training Documents</h6>
+                                                    <p>
+                                                        Total Enrollment Forms - <span class="badge bg-warning">@ViewData["EnrollmentForm"]</span><br />
+                                                        Total Induction Forms - <span class="badge bg-warning">@ViewData["InductionForm"]</span><br />
+                                                        Total Declaration's - <span class="badge bg-warning">@ViewData["Declaration"]</span><br />
+                                                        Total Code of Conducts - <span class="badge bg-warning">@ViewData["Conduct"]</span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                    <a href="">
+                                        <div class="card-flyer">
+                                            <div class="text-box">
+                                                <div class="image-box">
+                                                    <img src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg" alt="" />
+                                                </div>
+                                                <div class="text-container">
+                                                    <h6>Progress Report</h6>
+                                                    <p>
+
+                                                        Nated Reports - <span class="badge bg-info">@ViewData["NATED"]</span><br />
+                                                        Electrical Reports - <span class="badge bg-info">@ViewData["Electrician"]</span><br />
+                                                        Welding Reports - <span class="badge bg-info">@ViewData["Welder"]</span><br />
+                                                        Plumbing Reports - <span class="badge bg-info">@ViewData["Plumber"]</span><br />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(function () {
+
+        var userRole = '@ViewData["role"]';
+
+        if(userRole == 'Admin'){
+
+            Swal.fire({
+                position: 'middle',
+                icon: 'success',
+                title: 'Welcome ' + '@ViewData["CurrentUser"]',
+                showConfirmButton: false,
+                timer: 3500,
+                footer: 'Please pay attention to the May 2024 Updates'
+            })
+
+        }
+    });
+</script>

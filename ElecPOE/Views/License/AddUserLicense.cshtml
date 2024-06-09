@@ -1,0 +1,148 @@
+﻿@model ElecPOE.DTO.LicenseDTO
+@using ElecPOE.Enums
+
+<link rel="stylesheet" href="~/css/formStyle.css" />
+
+<div class="col-md-2">
+    <span class="badge bg-primary text-dark">
+        <a class="mb-0 text-white" asp-action="Licenses" asp-controller="License" style="cursor:pointer"><i class="fa fa-eye"></i> View Licenses</a>
+    </span>
+</div>
+<div class="col-xl-12 p-1">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Add Candidate's License Information<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <form enctype="multipart/form-data" asp-action="AddUserLicense">
+
+                <div class="row">
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">Title</label>
+                        <div class="input-group input1">
+                            <select asp-for="Title" class="form-control " asp-items="Html.GetEnumSelectList<eTitle>()">
+                                <option selected="selected" value="">Select Title</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">Full Name</label>
+                        <div class="input-group input1">
+                            <input asp-for="Name" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">Last Name</label>
+                        <div class="input-group input1">
+                            <input asp-for="LastName" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">ID / Passport Number</label>
+                        <div class="input-group input1">
+                            <input asp-for="IDNumber" required class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">Client Type</label>
+                        <div class="input-group input1">
+                            <select asp-for="ClientType" class="form-control" asp-items="Html.GetEnumSelectList<eClientType>()">
+                                <option selected="selected" value="">Select Speciality</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">Company</label>
+                        <div class="input-group mb-3 input1">
+                            <select asp-for="CompanyId" class="form-control Type" asp-items="@ViewBag.CompanyId">
+                                <option selected="selected" value="">Select Company</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-12 p-1">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-file me-1 text-white"></i>
+                            <span class="text-white">License Information<span class="text-bold"></span></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xl-6 bod">
+                                    <div class="form-group col-md-12">
+                                        <label class="control-label">License Type</label>
+                                        <div class="input-group input1">
+                                            <select asp-for="CourseKey" class="form-control Type" asp-items="@ViewBag.CourseId">
+                                                <option selected="selected" value="">Select License</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <label class="control-label">Issue Date</label>
+                                        <div class="input-group input1">
+                                            <input asp-for="DateOfIssue" required class="form-control" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <label class="control-label">Expiry Date</label>
+                                        <div class="input-group input1">
+                                            <input asp-for="DateOfExpiry" required class="form-control" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <label class="control-label">Application Count</label>
+                                        <div class="input-group input1">
+                                            <select asp-for="Frequency" class="form-control Type" asp-items="Html.GetEnumSelectList<eLicenseFrequency>()">
+                                                <option selected="selected" value="">Select Frequency</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <label class="control-label">Upload License</label>
+                                        <div class="input-group input1">
+                                            <input asp-for="IFormFileUpload" required class="form-control" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mt-2 col-md-12">
+                                        <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                                            <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                                            <button type="reset" class="btn btn-outline-warning float-end"><i class="fa fa-undo"></i> Reset</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-xl-4 ml-2">
+                                    <div class="card-body mb-4">
+                                        <img id="output" src="~/Images/License.jpg" class="form-control align-content-center" height="350px" style="border:none" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+

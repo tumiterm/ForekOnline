@@ -1,0 +1,112 @@
+﻿@model IEnumerable<ElecPOE.Models.Company>
+@using ElecPOE.Utlility
+
+<style>
+    .form-control, .accordion-item {
+        border-color: black;
+    }
+
+    .acchead {
+        background-color: #2774F1
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+
+    .select2-container .select2-selection--single {
+        height: 38px !important;
+        border-color: black;
+    }
+
+    .select2-selection__arrow {
+        height: 34px !important;
+    }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card-border, .table {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .ref {
+        background-color: darkblue;
+    }
+
+    .vs {
+        margin-left: 240px;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td,
+    .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #FCCFCF;
+    }
+</style>
+
+<div class="col-md-2">
+    <span class="badge bg-warning text-dark">
+        <a class="mb-0 text-white fs-6" asp-action="Companies" asp-controller="Company"><i class="fa bi-plus-circle"></i> Add Host Company</a>
+    </span>
+</div>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa fa-building me-1 text-white"></i>
+            <span class="text-white">List of Hosting Companies<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped" id="datatablesSimple">
+                <thead style="color:darkred">
+                    <tr>
+                        <th>
+                            Action
+                        </th>
+                        <th class="text-white">Company Name</th>
+                        <th class="text-white">Speciality</th>
+                        <th class="text-white">Contact</th>
+                        <th class="text-white">Added By</th>
+                        <th class="text-white">Action</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="text-primary" asp-action="OnModifyHostCompany" asp-route-CompanyId="@item.CompanyId"><i class="fa bi-folder2-open"></i> Open</a>
+                            </td>
+                            <td>@item.CompanyName</td>
+                            <td>@Helper.GetDisplayName(item.Speciality)</td>
+                            <td>@item.Phone</td>
+                            <td>@item.CreatedBy</td>
+                            <td>
+                                <a class="text-dark" asp-action="OnGetLearners" asp-route-CompanyId="@item.CompanyId"><i class="fa fa-graduation-cap"></i> Learners</a> |
+@*                                <a class="text-danger fw-bold" asp-action="VisitationList" asp-controller="Visit" asp-route-CompanyId="@item.CompanyId"><i class="fa fa-clock-o"></i> Visitation</a>
+*@                                <a class="text-danger fw-bold" asp-action="VisitationList" asp-controller="Visit"><i class="fa fa-clock-o"></i> Visitation</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<br />

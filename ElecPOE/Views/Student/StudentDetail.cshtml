@@ -1,0 +1,239 @@
+﻿@model ElecPOE.Models.Student
+
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        color: #000;
+    }
+
+    .student-profile .card {
+        border-radius: 10px;
+    }
+
+        .student-profile .card .card-header .profile_img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px auto;
+            border: 10px solid #ccc;
+            border-radius: 50%;
+        }
+
+        .student-profile .card h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .student-profile .card p {
+        font-size: 16px;
+        color: #000;
+    }
+
+    .student-profile .table th,
+    .student-profile .table td {
+        font-size: 14px;
+        padding: 5px 10px;
+        color: #000;
+    }
+</style>
+<div class="col-xl-12">
+
+    <a class="btn btn-outline-secondary" asp-action="StudentDocuments" asp-controller="Student" asp-route-StudentNumber="@Model.StudentNumber"><i class="fa fa-pencil"></i> Learner Documents</a>
+    <a class="btn btn-outline-primary" asp-action="AttachAssessment" asp-controller="Assessment" asp-route-StudentNumber="@Model.StudentNumber"><i class="fa fa-book"></i> Learner Assessments</a>
+    <a class="btn btn-outline-success" asp-action="TrainingMaterial" asp-controller="TrainingAssessment" asp-route-StudentNumber="@Model.StudentNumber"><i class="fa fa-school"></i> Training Documents</a>
+    <a class="btn btn-outline-info" asp-action="UploadEvidence" asp-controller="Evidence" asp-route-StudentNumber="@Model.StudentNumber"><i class="fa bi bi-camera-fill"></i> Simulation/Evidence</a>
+    <a class="btn btn-outline-danger" asp-action="StudentResults" asp-controller="Results" asp-route-StudentNumber="@Model.StudentNumber"><i class="fa bi bi-file-pdf-fill"></i> Results</a>
+    <a class="btn btn-outline-success" asp-action="UploadStudentStatement" asp-controller="StudentFinance" asp-route-StudentNumber="@Model.StudentNumber" asp-route-StudentId="@Model.StudentId"><i class="fa bi bi-coin"></i> Finance</a>
+    <a class="btn btn-outline-dark" asp-action="PlacementDetails" asp-controller="LearnerPlacement" asp-route-StudentNumber="@Model.StudentNumber" asp-route-StudentId="@Model.StudentId"><i class="fa fa-tools"></i> Workplace</a>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-user me-1 text-white"></i>
+            <span class="text-white">Student Details<span class="text-bold"></span></span>
+        </div>
+
+        <div class="student-profile py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                            <div class="card-header bg-transparent text-center">
+                                <img class="profile_img" src="~/Theme/images/logob-removebg-preview.png" alt="">
+                                <h3>@Model.FirstName @Model.LastName</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="mb-0"><strong class="pr-1">Student Number:</strong> @Model.StudentNumber</p>
+                                <p class="mb-0"><strong class="pr-1">Course:</strong> @Model.EnrollmentHistory[0].CourseTitle</p>
+                                <p class="mb-0"><strong class="pr-1">Enrolled On:</strong> @Model.AdmissionDate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card shadow-sm">
+                            <div class="card-header bg-transparent border-0">
+                                <h3 class="mb-0"><i class="far fa-clone pr-1"></i> General Information</h3>
+                            </div>
+                            <div class="card-body pt-0">
+                                <table class="table table-bordered">
+
+                                    <tr>
+                                        <th width="30%">Course Type</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.EnrollmentHistory[0].CourseType</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th width="30%">Academic Year	</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.AdmissionDate.Year</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="30%">Gender</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.Gender.ToString()</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="30%">Admission Type</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.AdmissionCategory</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="30%">Highest Grade</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.HighestGrade</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th width="30%">ID Number</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.IDNumber</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th width="30%">From</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.StreetAddressLine1 @Model.StreetAddressLine2</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th width="30%">High School</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.NameofSchool</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="30%">Cellphone</th>
+                                        <td width="2%">:</td>
+                                        <td>@Model.Cellphone</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Student Number Authentication</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="StudentDocuments" asp-controller="Student" method="get">
+                    <div class="form-group col-md-8">
+                        <label class="control-label">Student Number</label>
+                        <input name="StudentNumber" class="form-control" />
+                    </div>
+                    <div class="modal-footer mt-1">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:darkred">
+                <h5 class="modal-title text-white" id="staticBackdropLabel">Student Number Authentication</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="AttachAssessment" asp-controller="Assessment" method="get">
+                    <div class="form-group col-md-8">
+                        <label class="control-label">Student Number</label>
+                        <input name="StudentNumber" class="form-control" />
+                    </div>
+                    <div class="modal-footer mt-1">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:darkblue">
+                <h5 class="modal-title text-white" id="staticBackdropLabel">Student Number Authentication</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="TrainingMaterial" asp-controller="TrainingAssessment" method="get">
+                    <div class="form-group col-md-8">
+                        <label class="control-label">Student Number</label>
+                        <input name="StudentNumber" class="form-control" />
+                    </div>
+                    <div class="modal-footer mt-1">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(function () {
+
+        var userRole = '@ViewData["role"]';
+
+        if (userRole == 'Student') {
+
+            Swal.fire({
+                position: 'middle',
+                icon: 'success',
+                title: 'Welcome ' + '@ViewData["CurrentUser"]',
+                showConfirmButton: false,
+                timer: 3500,
+                footer: 'We are thrilled to have you on board.'
+            })
+
+        }
+    });
+</script>

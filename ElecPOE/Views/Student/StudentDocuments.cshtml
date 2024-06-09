@@ -1,0 +1,124 @@
+﻿@using ElecPOE.Enums
+@model dynamic
+
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    thead, .header2 {
+        background-color: #000080;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+     
+    .remB{
+        color:red;
+    }
+
+    th{
+        color: white;
+    }
+</style>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">Registered Students Attachments<span class="text-bold"></span></span>
+        </div>
+
+            <div class="card-body">
+                <form asp-action="StudentDocuments" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Document Type</label>
+                        <select name="DocumentName" class="form-control DocName" asp-items="Html.GetEnumSelectList<eLearnerAdministration>()">
+                            <option selected="selected" value="">Select Document</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Document</label>
+                        <input name="AttachmentFile" required type="file" class="form-control" />
+                    </div>
+                    
+
+                    <div hidden>
+                        @Html.TextBox("StudentNumber", ViewData["StudentNumber"], new {htmlAttributes = new {@class="form-control",name="StudentNumber"}})
+                        @Html.TextBox("StudentId", ViewData["StudentId"], new {htmlAttributes = new {@class="form-control",name="StudentId"}})
+                    </div>
+                    <div class="form-group col-md-4 mt-3">
+                        <div class="form-group col-md-12 mt-2" style="background-color:whitesmoke;">
+                            <button type="submit" class="btn btn-success save"><i class="fa fa-save"></i> Save</button>
+                            <button type="reset" class="btn btn-outline-warning"><i class="fa fa-undo"></i> Reset</button>
+                            <button type="button" class="btn btn-outline-danger float-end"><i class="fa fa-window-close"></i> Exit</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header header2">
+            <i class="fas fa-file me-1 text-white"></i>
+            <span class="text-white">My Uploaded Documents - @ViewData["name"]<span class="text-bold"></span></span>
+        </div>
+        <div class="card-body">
+            <table class="table mr-5 ml-5 table-striped" id="datatablesSimple">
+                <thead class="head">
+                    <tr>
+                       
+                        <th class="text-white">
+                            Action
+                        </th>
+
+
+                        <th class="text-white">
+                            Document Type
+                        </th>
+
+
+                        <th class="text-white">
+                            Attached On
+                        </th>
+                        <th class="text-white">
+                            Action
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (StudentAttachment attachment in Model.FileModel)
+                    {
+                        <tr>
+
+                            <td>
+                                <a class="text-danger remB" href="@Url.Action("RemoveDocument", "Student",new {AttachmentId = attachment.AttachmentId})"><i class="fa bi-trash-fill"></i> Remove</a>
+                            </td>
+                           
+                            <td>
+                                @attachment.DocumentName
+                            </td>
+
+                            <td>
+                                @attachment.CreatedOn
+                            </td>
+
+                            <td>
+                                <a class="text-primary" href="@Url.Action("AttachmentDownload", "Student",new {filename  = attachment.Document})"><i class="fa fa-download"></i> Download</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

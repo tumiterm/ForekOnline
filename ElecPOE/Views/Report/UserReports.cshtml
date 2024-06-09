@@ -1,0 +1,196 @@
+﻿@model IEnumerable<ElecPOE.Models.Report>
+
+
+<style>
+    .card-header, .head {
+        background-color: darkred;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    thead {
+        background-color: darkred;
+    }
+
+    th {
+        color: white;
+    }
+
+    .modal-dialog{
+        height:90%;
+    }
+
+    .modal-content{
+        height: 90%;
+    }
+</style>
+@*<button class="btn btn-danger btnPrint"> Print</button>
+*@<a class="text-danger" asp-action="CreateReport" asp-route-IdPass="@ViewData["UId"]"><i class="fa bi-folder-plus"></i> Add Report</a>
+<div class="col-xl-12">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fa bi-folder-symlink me-1 text-white"></i>
+            <span class="text-white">Collection of all reports - for @ViewData["UName"]<span class="text-bold"></span></span>
+        </div>
+
+        <div class="card-body">
+
+
+            <div class="row">
+                <div class="col-xl-8 bod">
+                    <div class="card-body">
+                        <div class="row">
+                            <table class="table mr-5 ml-5 table-striped" id="datatablesSimple">
+                                <thead class="head">
+                                    <tr>
+                                        <th class="text-white">
+                                            Reference
+                                        </th>
+
+                                        <th class="text-white">
+                                             Type
+                                        </th>
+
+                                        <th class="text-white">
+                                            Created On
+                                        </th>
+
+                                        <th class="text-white">
+                                            Downloadable?
+                                        </th>
+
+                                        <th class="text-white">
+                                            Action
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (Report reports in Model)
+                                    {
+                                        <tr>
+
+                                            <td>
+                                                @Html.DisplayFor(m => reports.Reference)
+                                            </td>
+
+                                            <td>
+                                                @Html.DisplayFor(m => reports.ReportType)
+                                            </td>
+
+                                            <td>
+                                                @Html.DisplayFor(m => reports.CreatedOn)
+                                            </td>
+
+                                            <td>
+
+                                                @if (reports.Document != null)
+                                                {
+                                                    <a asp-action="AttachmentDownload" class="text-primary" asp-route-filename="@reports.Document"><i class="fa bi-download"></i> Download</a>
+                                                }
+                                                else
+                                                {
+                                                    <a><i class="fa fa-ban"></i> Not Allowed</a>
+                                                }
+                                            </td>
+
+                                            <td>
+                                                <div class="btn-group">
+                                                <a class="btn btn-outline-secondary preview-btn" data-report-id="@reports.ReportId" data-bs-toggle="modal" data-bs-target="#previewStaticBackdrop"> Preview</a>
+                                                <a asp-action="RemoveReport" class="btn btn-danger" asp-route-ReportId="@reports.ReportId">Remove</a>
+                                               </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card-body mb-4">
+                        <img id="output" src="~/Images/Reps.jpg" class="form-control" height="350px" style="border:none" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Preview Modal -->
+<div class="modal fade" id="previewStaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:darkred">
+                <h5 class="modal-title text-white" id="staticBackdropLabel">Preview Document</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <iframe src="~/Reports/@Model.First().Document" style="width: 90%; height:75%; border:none" type="application/pdf"></iframe>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        $('.Report,.recommend,.challenge,.activity,.module,.Facilitator,.Date,.Urgency,.ReportType').hide();
+
+        $('.Operation').on('change', function () {
+
+            var selectedItem = $(".Operation").find('option:selected').text();
+
+            if (selectedItem == "I'd like to - Create My Report") {
+                $('.Report').hide();
+                $('.recommend,.challenge,.activity,.module,.Facilitator,.Date,.Urgency,.ReportType').show();
+
+            }
+            else if (selectedItem == "I'd like to - Upload My Report") {
+                $(".Report,.ReportType,.Facilitator").show();
+                $('.recommend,.challenge,.activity,.module,.Date,.Urgency').hide();
+
+            } else {
+                $('.Report,.recommend,.challenge,.activity,.module,.Facilitator,.Date,.Urgency,.ReportType').hide();
+            }
+        });
+
+        $(".btnPrint").click(function () {
+
+            window.print();
+        });
+
+        $('.preview-btn').click(function () {
+            var reportId = $(this).data('report-id');
+            $.ajax({
+                url: '/Report/OnPreviewReport',
+                method: 'GET',
+                data: { reportId: reportId },
+                success: function (response) {
+                  
+                    $('#previewStaticBackdrop .modal-body').html(response);
+                  
+                    //$('#previewStaticBackdrop').modal('show');
+                },
+                error: function (xhr) {
+                    console.log(xhr.responseText);
+                }
+            });
+        });
+
+    });
+</script>
