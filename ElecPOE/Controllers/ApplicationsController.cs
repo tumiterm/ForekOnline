@@ -25,6 +25,8 @@ namespace ElecPOE.Controllers
         private readonly IUnitOfWork<Guardian> _guardianContext;
         private readonly IWebHostEnvironment _hostEnvironment;
         private readonly INotyfService _notify;
+        private readonly ILogger<ApplicationsController> _logger;
+
 
         #endregion
 
@@ -38,6 +40,8 @@ namespace ElecPOE.Controllers
 
             IWebHostEnvironment hostEnvironment,
 
+            ILogger<ApplicationsController> logger,
+
             INotyfService notify)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
@@ -49,6 +53,8 @@ namespace ElecPOE.Controllers
             _guardianContext = guardianContext ?? throw new ArgumentNullException(nameof(guardianContext));
 
             _notify = notify ?? throw new ArgumentNullException(nameof(notify));
+
+            _logger = logger;
         }
 
         [HttpGet]
@@ -138,9 +144,9 @@ namespace ElecPOE.Controllers
 
                     Reference = item.ReferenceNumber,
 
-                    IDPassDoc = item.IDPassDoc,
+                    IDPassDoc = item.IDPassDoc ?? "Id Error",
 
-                    QualificationDoc = item.HighestQualDoc, 
+                    QualificationDoc = item.HighestQualDoc ?? "Qualification Error", 
 
                    
                 };
@@ -701,8 +707,7 @@ namespace ElecPOE.Controllers
             }
            
         }
-
-        private  DateTime ConvertToDateTime(string dateString)
+        private DateTime ConvertToDateTime(string dateString)
         {
             if (string.IsNullOrWhiteSpace(dateString))
             {
@@ -721,6 +726,50 @@ namespace ElecPOE.Controllers
                 throw new FormatException("The input string is not in the correct format.");
             }
         }
+
+
+        /// <summary>
+        /// Inspects a list of applications and checks if there are any with a status of "Pending" for more than 24 hours.
+        /// If such applications are found, notifications are sent.
+        /// </summary>
+        /// <param name="applications">The list of applications to inspect.</param>
+        private void InspectPendingApplications(List<ApplicationsDTO> applications)
+        {
+            if (applications == null || !applications.Any())
+            {
+                _logger.LogInformation("No applications to inspect.");
+
+                return;
+            }
+
+            DateTime twentyFourHoursAgo = DateTime.UtcNow.AddHours(-24);
+
+            var staleApplications = applications.Where(x => x.Status.ToString() == Enums.ApplicationStatus.Pending.ToString() && x.SubmittedDate <= twentyFourHoursAgo).ToList();
+
+            if (staleApplications.Any())
+            {
+                _logger.LogInformation($"{staleApplications.Count} pending applications are older than 24 hours.");
+
+                foreach (var application in staleApplications)
+                {
+                    SendNotification(application);
+                }
+            }
+            else
+            {
+                _logger.LogInformation("No pending applications older than 24 hours.");
+            }
+        }
+
+        /// <summary>
+        /// Sends a notification for a given application.
+        /// </summary>
+        /// <param name="application">The application for which to send the notification.</param>
+        private void SendNotification(ApplicationsDTO application)
+        {
+            Helper.SendSMS("", "");
+        }
+
 
     }
 }
