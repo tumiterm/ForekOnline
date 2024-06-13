@@ -34,7 +34,7 @@ namespace ElecPOE.Data
         public DbSet<Medical> Medicals { get; set; }
         public DbSet<Models.File> Files { get; set; }
         public DbSet<Document> Documents { get; set; }
-
+        public DbSet<ApplicationRejection> Rejections { get; set; }
         public DbSet<Models.License> Licenses { get; set; }
 
 

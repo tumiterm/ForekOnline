@@ -114,102 +114,73 @@ namespace ElecPOE.Controllers
             return View(model);
         }
 
-        [Authorize(Roles = "Admin,SuperAdmin")]
+
+        /// <summary>
+        /// Handles the retrieval and presentation of application data.
+        /// </summary>
+        /// <returns>A task representing the asynchronous operation, containing an <see cref="IActionResult"/> with the application data.</returns>
+
+        //[Authorize(Roles = "Admin,SuperAdmin")]
         public async Task<IActionResult> Applications()
         {
-            var list = await _context.OnLoadItemsAsync();
-
-            List<ApplicationsDTO> applications = new();
-
-            foreach (var item in list)
+            try
             {
+                var list = await _context.OnLoadItemsAsync();
 
-                var dto = new ApplicationsDTO
+                List<ApplicationsDTO> applications = new();
+
+                foreach (var item in list)
                 {
-                    ApplicationId = item.ApplicationId,
+                    var dto = await ConvertToApplicationsDTOAsync(item);
 
-                    IDNumber = item.IDNumber,
+                    applications.Add(dto);
+                }
 
-                    Email = item.Email,
+                ViewData["New"] = await NewApplicationCountAsync();
 
-                    Status = item.Status.ToString(),
+                ViewData["Pending"] = await PendingApplicationCountAsync();
 
-                    SubmittedDate = ConvertToDateTime(Helper.ExtractDateFromReference(item.ReferenceNumber)),
-                
-                    Cellphone = item.Cellphone,
-
-                    Course = await ConvertCourseIdToStringAsync(item.CourseId),
-
-                    Names = $"{item.ApplicantName} {item.ApplicantSurname}",
-
-                    Reference = item.ReferenceNumber,
-
-                    IDPassDoc = item.IDPassDoc ?? "Id Error",
-
-                    QualificationDoc = item.HighestQualDoc ?? "Qualification Error", 
-
-                   
-                };
-
-                applications.Add(dto);
+                return View(applications);
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while processing applications.");
 
-            return View(applications);
+                return StatusCode(500, "Internal server error");
+            }
         }
+        /// <summary>
+        /// Handles the application process for a specific application ID.
+        /// </summary>
+        /// <param name="ApplicationId">The ID of the application to process.</param>
+        /// <returns>A task representing the asynchronous operation, containing an <see cref="IActionResult"/>.</returns>
         public async Task<IActionResult> OnApply(Guid ApplicationId)
         {
-            var applications = await _context.OnLoadItemAsync(ApplicationId);
-
-            if(applications is null)
+            try
             {
-                return RedirectToAction("RouteNotFound", "Global");
+                var application = await _context.OnLoadItemAsync(ApplicationId);
+
+                if (application is null)
+                {
+                    _logger.LogWarning("Application with ID {ApplicationId} not found.", ApplicationId);
+
+                    return RedirectToAction("RouteNotFound", "Global");
+                }
+
+                var applyDto = ConvertToApplyDTO(application);
+
+                ViewData["Course"] = await ConvertCourseIdToStringAsync(application.CourseId);
+
+                ViewBag.Application = application;
+
+                return View(applyDto);
             }
-
-            ApplyDTO application = new()
+            catch (Exception ex)
             {
-                ApplicantId = ApplicationId,
+                _logger.LogError(ex, "Error occurred while processing the application with ID {ApplicationId}.", ApplicationId);
 
-                ApplicantIDPassFile = applications.IDPassFile,
-
-                ApplicantName = applications.ApplicantName,
-
-                ApplicantSurname = applications.ApplicantSurname,
-
-                ApplicantTitle = applications.ApplicantTitle,
-
-                Cellphone= applications.Cellphone,  
-
-                Email= applications.Email,
-
-                Gender= applications.Gender,
-
-                CourseId = applications.CourseId,
-
-                IDNumber= applications.IDNumber,
-
-                IDPassDoc= applications.IDPassDoc,
-
-                Status= applications.Status,
-
-                Selection= applications.Selection,
-
-                ReferenceNumber= applications.ReferenceNumber,
-           
-                StudyPermitCategory = applications.StudyPermitCategory,
-
-                HighestQualification = applications.HighestQualification,
-
-                HighestQualDoc = applications.HighestQualDoc,
-
-                ResidenceDoc = applications.ResidenceDoc, 
-                
-            };
-
-            ViewData["Course"] = await ConvertCourseIdToStringAsync(applications.CourseId);
-
-            ViewBag.Application = applications;
-
-            return View(application);
+                return StatusCode(500, "Internal server error");
+            }
         }
         [Authorize(Roles = "Admin,SuperAdmin")]
         [HttpPost]
@@ -283,194 +254,7 @@ namespace ElecPOE.Controllers
 
             return View(model);
         }
-        private Application CreateApplication(ApplyDTO model)
-        {
-            Guid key = Helper.GenerateGuid();
-
-            string getID = model.ApplicantIDPassFile.FileName;
-
-            string getQualification = model.AplicantHighestQualFile.FileName;
-
-            string getResidence = model.ApplicantResidenceFile.FileName;
-
-            Application application = new Application
-            {
-                ApplicationId = key,
-
-                Email = model.Email,
-
-                Cellphone = model.Cellphone,
-
-                ResidenceDoc = getResidence,
-
-                HighestQualDoc = getQualification,
-
-                IDNumber = model.IDNumber,
-
-                IDPassDoc = getID,
-
-                ApplicantName = model.ApplicantName,
-
-                ApplicantSurname = model.ApplicantSurname,
-
-                Selection = model.Selection,
-
-                Status = Enums.ApplicationStatus.Submitted,
-
-                StudyPermitCategory = model.StudyPermitCategory,
-
-                ApplicantTitle = model.ApplicantTitle,
-
-                ReferenceNumber = $"FOR{DateTime.Now.ToShortDateString()}{Helper.RandomStringGenerator(3)}",
-                //FOR6/20/2023iYs
-
-                CourseId = model.CourseId,
-
-                Gender = model.Gender,
-
-                PassportNumber = model.PassportNumber,
-
-                HighestQualification = model.HighestQualification,
-
-                HighestQualFile = model.AplicantHighestQualFile,
-
-                IDPassFile = model.ApplicantIDPassFile,
-
-                ResidenceFile = model.ApplicantResidenceFile,
-
-                ApplicantAddress = CreateApplicantAddress(model, key),
-
-                ApplicantGuardian = CreateApplicantGuardian(model, key),
-            };
-
-            return application;
-        }
-        private Address CreateApplicantAddress(ApplyDTO model, Guid applicationId)
-        {
-            return new Address
-            {
-                AddressId = Helper.GenerateGuid(),
-
-                StreetName = model.StreetName,
-
-                AssociativeId = applicationId,
-
-                City = model.City,
-
-                Line1 = model.Line1,
-
-                PostalCode = model.PostalCode,
-
-                Province = model.Province
-            };
-        }
-        private Guardian CreateApplicantGuardian(ApplyDTO model, Guid applicationId)
-        {
-            return new Guardian
-            {
-                IDDoc = model.IDPassDoc,
-
-                IDFile = model.GuardianIDFile,
-
-                ApplicationId = applicationId,
-
-                Cellphone = model.GuardianCellphone,
-
-                GuardianId = Helper.GenerateGuid(),
-
-                FirstName = model.GuardianFirstName,
-
-                LastName = model.GuardianLastName,
-
-                Relationship = model.GuardianRelationship,
-            };
-        }
-        private async Task<int> SaveApplicationAsync(Application application)
-        {
-            var response = await _context.OnItemCreationAsync(application);
-
-            if (response != null)
-            {
-                return await _context.ItemSaveAsync();
-            }
-            return 0;
-        }
-        private async Task FileUploader(Application application, IFormFile file, string destinationFolder, string propertyName)
-        {
-            try
-            {
-                string wwwRootPath = _hostEnvironment.WebRootPath;
-
-                string folderPath = Path.Combine(wwwRootPath, destinationFolder);
-
-                string absolutePath = wwwRootPath + folderPath;
-
-                if (!Directory.Exists(folderPath))
-                {
-                    Directory.CreateDirectory(folderPath);
-                }
-
-                string fileName = Path.GetFileNameWithoutExtension(file.FileName);
-
-                string extension = Path.GetExtension(file.FileName);
-
-                PropertyInfo property = typeof(Application).GetProperty(propertyName + "Doc");
-
-                if (property != null)
-                {
-                    property.SetValue(application, fileName + Helper.GenerateGuid() + extension);
-                }
-
-                string path = wwwRootPath + Path.Combine(folderPath, fileName + extension);
-
-                using (var fileStream = new FileStream(path, FileMode.Create))
-                {
-                    await file.CopyToAsync(fileStream);
-                }
-            }
-            catch (Exception ex)
-            {
-                TempData["error"] = $"{ex.Message}";
-            }
-        }
-        private async Task UploadFileIfNotNullAsync(Application application, IFormFile file, string directory, string fileName)
-        {
-            if (file != null)
-            {
-                await FileUploader(application, file, directory, fileName);
-            }
-        }
-        private void OnSendSMS(Application model)
-        {
-
-            Helper.SendSMS("Dear Sir - a new application needing your attention" +
-                            $" was just recieved - ref: {model.ReferenceNumber}", "0661401781");
-        }
-        private async void OnSendEmail(Application model)
-        {
-            string programme = await ConvertCourseIdToStringAsync(model.CourseId);
-
-            string message = MessageBuilder(model, programme);
-
-            Helper.OnSendMailNotification(model.Email, $"Online Application - Ref: {model.ReferenceNumber}", message, "Forek Online Applications");
-
-        }
-        private async Task<string> ConvertCourseIdToStringAsync(Guid courseId)
-        {
-            if (courseId == Guid.Empty)
-            {
-                throw new ArgumentException("Invalid course ID provided.");
-            }
-
-            Course course = await _courseContext.OnLoadItemAsync(courseId);
-
-            if (course == null)
-            {
-                throw new InvalidOperationException("Course not found.");
-            }
-
-            return $"{course.CourseName} ({Helper.GetDisplayName(course.Type)}) {course.NType}";
-        }
+  
         public IActionResult DownloadFile(string fileName, string destinationFolder)
         {
             try
@@ -707,6 +491,240 @@ namespace ElecPOE.Controllers
             }
            
         }
+
+        #region Private Helpers
+
+        /// <summary>
+        /// Creates an <see cref="Application"/> entity from the given <see cref="ApplyDTO"/> model.
+        /// </summary>
+        /// <param name="model">The model containing the application data.</param>
+        /// <returns>The created <see cref="Application"/> entity.</returns>
+        private Application CreateApplication(ApplyDTO model)
+        {
+            Guid key = Helper.GenerateGuid();
+
+            string getID = model.ApplicantIDPassFile.FileName;
+
+            string getQualification = model.AplicantHighestQualFile.FileName;
+
+            string getResidence = model.ApplicantResidenceFile.FileName;
+
+            Application application = new Application
+            {
+                ApplicationId = key,
+
+                Email = model.Email,
+
+                Cellphone = model.Cellphone,
+
+                ResidenceDoc = getResidence,
+
+                HighestQualDoc = getQualification,
+
+                IDNumber = model.IDNumber,
+
+                IDPassDoc = getID,
+
+                ApplicantName = model.ApplicantName,
+
+                ApplicantSurname = model.ApplicantSurname,
+
+                Selection = model.Selection,
+
+                Status = Enums.ApplicationStatus.Submitted,
+
+                StudyPermitCategory = model.StudyPermitCategory,
+
+                ApplicantTitle = model.ApplicantTitle,
+
+                ReferenceNumber = $"FOR{DateTime.Now.ToShortDateString()}{Helper.RandomStringGenerator(3)}",
+                //FOR6/20/2023iYs
+
+                CourseId = model.CourseId,
+
+                Gender = model.Gender,
+
+                PassportNumber = model.PassportNumber,
+
+                HighestQualification = model.HighestQualification,
+
+                HighestQualFile = model.AplicantHighestQualFile,
+
+                IDPassFile = model.ApplicantIDPassFile,
+
+                ResidenceFile = model.ApplicantResidenceFile,
+
+                ApplicantAddress = CreateApplicantAddress(model, key),
+
+                ApplicantGuardian = CreateApplicantGuardian(model, key),
+            };
+
+            return application;
+        }
+
+        /// <summary>
+        /// Creates an <see cref="Address"/> entity from the given <see cref="ApplyDTO"/> model and application ID.
+        /// </summary>
+        /// <param name="model">The model containing the address data.</param>
+        /// <param name="applicationId">The ID of the application.</param>
+        /// <returns>The created <see cref="Address"/> entity.</returns>
+        private Address CreateApplicantAddress(ApplyDTO model, Guid applicationId)
+        {
+            return new Address
+            {
+                AddressId = Helper.GenerateGuid(),
+
+                StreetName = model.StreetName,
+
+                AssociativeId = applicationId,
+
+                City = model.City,
+
+                Line1 = model.Line1,
+
+                PostalCode = model.PostalCode,
+
+                Province = model.Province
+            };
+        }
+
+        /// <summary>
+        /// Creates a <see cref="Guardian"/> entity from the given <see cref="ApplyDTO"/> model and application ID.
+        /// </summary>
+        /// <param name="model">The model containing the guardian data.</param>
+        /// <param name="applicationId">The ID of the application.</param>
+        /// <returns>The created <see cref="Guardian"/> entity.</returns>
+        private Guardian CreateApplicantGuardian(ApplyDTO model, Guid applicationId)
+        {
+            return new Guardian
+            {
+                IDDoc = model.IDPassDoc,
+
+                IDFile = model.GuardianIDFile,
+
+                ApplicationId = applicationId,
+
+                Cellphone = model.GuardianCellphone,
+
+                GuardianId = Helper.GenerateGuid(),
+
+                FirstName = model.GuardianFirstName,
+
+                LastName = model.GuardianLastName,
+
+                Relationship = model.GuardianRelationship,
+            };
+        }
+
+
+        /// <summary>
+        /// Asynchronously saves the given <see cref="Application"/> entity to the database.
+        /// </summary>
+        /// <param name="application">The application entity to save.</param>
+        /// <returns>A task representing the asynchronous operation, containing the number of state entries written to the database.</returns>
+        private async Task<int> SaveApplicationAsync(Application application)
+        {
+            var response = await _context.OnItemCreationAsync(application);
+
+            if (response != null)
+            {
+                return await _context.ItemSaveAsync();
+            }
+            return 0;
+        }
+
+        /// <summary>
+        /// Asynchronously uploads a file to the specified destination folder and updates the corresponding property of the application entity.
+        /// </summary>
+        /// <param name="application">The application entity to update.</param>
+        /// <param name="file">The file to upload.</param>
+        /// <param name="destinationFolder">The folder to upload the file to.</param>
+        /// <param name="propertyName">The name of the property to update with the file path.</param>
+        private async Task FileUploader(Application application, IFormFile file, string destinationFolder, string propertyName)
+        {
+            try
+            {
+                string wwwRootPath = _hostEnvironment.WebRootPath;
+
+                string folderPath = Path.Combine(wwwRootPath, destinationFolder);
+
+                string absolutePath = wwwRootPath + folderPath;
+
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
+                }
+
+                string fileName = Path.GetFileNameWithoutExtension(file.FileName);
+
+                string extension = Path.GetExtension(file.FileName);
+
+                PropertyInfo property = typeof(Application).GetProperty(propertyName + "Doc");
+
+                if (property != null)
+                {
+                    property.SetValue(application, fileName + Helper.GenerateGuid() + extension);
+                }
+
+                string path = wwwRootPath + Path.Combine(folderPath, fileName + extension);
+
+                using (var fileStream = new FileStream(path, FileMode.Create))
+                {
+                    await file.CopyToAsync(fileStream);
+                }
+            }
+            catch (Exception ex)
+            {
+                TempData["error"] = $"{ex.Message}";
+            }
+        }
+
+
+        /// <summary>
+        /// Asynchronously uploads a file if it is not null.
+        /// </summary>
+        /// <param name="application">The application entity to update.</param>
+        /// <param name="file">The file to upload.</param>
+        /// <param name="directory">The directory to upload the file to.</param>
+        /// <param name="fileName">The name of the property to update with the file path.</param>
+        private async Task UploadFileIfNotNullAsync(Application application, IFormFile file, string directory, string fileName)
+        {
+            if (file != null)
+            {
+                await FileUploader(application, file, directory, fileName);
+            }
+        }
+
+        /// <summary>
+        /// Sends an SMS notification about a new application.
+        /// </summary>
+        /// <param name="model">The application model containing the data.</param>
+        private void OnSendSMS(Application model)
+        {
+
+            Helper.SendSMS("Dear Sir - a new application needing your attention" +
+                            $" was just recieved - ref: {model.ReferenceNumber}", "0661401781");
+        }
+
+        /// <summary>
+        /// Asynchronously sends an email notification about a new application.
+        /// </summary>
+        /// <param name="model">The application model containing the data.</param>
+        private async void OnSendEmail(Application model)
+        {
+            string programme = await ConvertCourseIdToStringAsync(model.CourseId);
+
+            string message = MessageBuilder(model, programme);
+
+            Helper.OnSendMailNotification(model.Email, $"Online Application - Ref: {model.ReferenceNumber}", message, "Forek Online Applications");
+
+        }
+
+        /// <summary>
+        /// Converts the date string from to a <see cref="DateTime"/> object.
+        /// </summary>
+        /// <param name="dateString">The date string to be converted.</param>
+        /// <returns>The converted <see cref="DateTime"/> object.</returns>
         private DateTime ConvertToDateTime(string dateString)
         {
             if (string.IsNullOrWhiteSpace(dateString))
@@ -769,6 +787,132 @@ namespace ElecPOE.Controllers
         {
             Helper.SendSMS("", "");
         }
+
+        /// <summary>
+        /// Asynchronously gets the count of new applications with a status of "Submitted".
+        /// </summary>
+        /// <returns>A task representing the asynchronous operation, with the count of new applications with a status of "Submitted".</returns>
+        private async Task<int> NewApplicationCountAsync()
+        {
+            var applications = await _context.OnLoadItemsAsync();
+
+            return applications.Count(a => a.Status == Enums.ApplicationStatus.Submitted);
+        }
+
+        /// <summary>
+        /// Asynchronously gets the count of pending applications with a status of "Pending".
+        /// </summary>
+        /// <returns>A task representing the asynchronous operation, with the count of pending applications with a status of "Pending".</returns>
+        private async Task<int> PendingApplicationCountAsync()
+        {
+            var applications = await _context.OnLoadItemsAsync();
+
+            return applications.Count(a => a.Status == Enums.ApplicationStatus.Pending);
+        }
+
+        /// <summary>
+        /// Converts an <see cref="Application"/> entity to an <see cref="ApplicationsDTO"/>.
+        /// </summary>
+        /// <param name="item">The application entity to convert.</param>
+        /// <returns>A task representing the asynchronous operation, containing the converted <see cref="ApplicationsDTO"/>.</returns>
+        private async Task<ApplicationsDTO> ConvertToApplicationsDTOAsync(Application item)
+        {
+            return new ApplicationsDTO
+            {
+                ApplicationId = item.ApplicationId,
+
+                IDNumber = item.IDNumber,
+
+                Email = item.Email,
+
+                Status = item.Status.ToString(),
+
+                SubmittedDate = ConvertToDateTime(Helper.ExtractDateFromReference(item.ReferenceNumber)),
+
+                Cellphone = item.Cellphone,
+
+                Course = await ConvertCourseIdToStringAsync(item.CourseId),
+
+                Names = $"{item.ApplicantName} {item.ApplicantSurname}",
+
+                Reference = item.ReferenceNumber,
+
+                IDPassDoc = item.IDPassDoc ?? "Id Error"
+                ,
+                QualificationDoc = item.HighestQualDoc ?? "Qualification Error"
+            };
+        }
+
+        /// <summary>
+        /// Converts an <see cref="Application"/> entity to an <see cref="ApplyDTO"/>.
+        /// </summary>
+        /// <param name="application">The application entity to convert.</param>
+        /// <returns>The converted <see cref="ApplyDTO"/>.</returns>
+        private ApplyDTO ConvertToApplyDTO(Application application)
+        {
+            return new ApplyDTO
+            {
+                ApplicantId = application.ApplicationId,
+
+                ApplicantIDPassFile = application.IDPassFile,
+
+                ApplicantName = application.ApplicantName,
+
+                ApplicantSurname = application.ApplicantSurname,
+
+                ApplicantTitle = application.ApplicantTitle,
+
+                Cellphone = application.Cellphone,
+
+                Email = application.Email,
+
+                Gender = application.Gender,
+
+                CourseId = application.CourseId,
+
+                IDNumber = application.IDNumber,
+
+                IDPassDoc = application.IDPassDoc,
+
+                Status = application.Status,
+
+                Selection = application.Selection,
+
+                ReferenceNumber = application.ReferenceNumber,
+
+                StudyPermitCategory = application.StudyPermitCategory,
+
+                HighestQualification = application.HighestQualification,
+
+                HighestQualDoc = application.HighestQualDoc,
+
+                ResidenceDoc = application.ResidenceDoc
+            };
+        }
+
+        /// <summary>
+        /// Converts a courseID to a meaningful string representation asynchronously.
+        /// </summary>
+        /// <param name="courseId">The courseID to convert.</param>
+        /// <returns>A task representing the asynchronous operation, containing the course name.</returns>
+        private async Task<string> ConvertCourseIdToStringAsync(Guid courseId)
+        {
+            if (courseId == Guid.Empty)
+            {
+                throw new ArgumentException("Invalid course ID provided.");
+            }
+
+            Course course = await _courseContext.OnLoadItemAsync(courseId);
+
+            if (course == null)
+            {
+                throw new InvalidOperationException("Course not found.");
+            }
+
+            return $"{course.CourseName} ({Helper.GetDisplayName(course.Type)}) {course.NType}";
+        }
+
+        #endregion
 
 
     }

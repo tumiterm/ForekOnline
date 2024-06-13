@@ -54,11 +54,28 @@
         background-color: #FCCFCF;
     }
 </style>
+
 <div class="col-xl-12">
     <div class="card mb-4">
         <div class="card-header">
             <i class="fas bi-mortarboard-fill me-1 text-white"></i>
             <span class="text-white">Online Applications List<span class="text-bold"></span></span>
+        </div>
+
+        <div>
+        <div class="row">
+                <div class="col-md-6 card-body">
+                <div class="alert alert-danger " role="alert" style="border-left-width: 4px; border-left-color: darkred">
+                        Applications needing your attention - <strong>New Applications Count (@ViewData["New"])</strong>
+                </div>
+            </div>
+
+                <div class="col-md-6 card-body">
+                    <div class="alert alert-success" role="alert" style="border-right-width: 4px; border-right-color: darkgreen">
+                        Applications needing your attention - <strong>Pending Applications Count (@ViewData["Pending"])</strong>
+                </div>
+            </div>
+        </div>
         </div>
 
         <div class="card-body">
