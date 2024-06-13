@@ -120,7 +120,7 @@ namespace ElecPOE.Controllers
         /// </summary>
         /// <returns>A task representing the asynchronous operation, containing an <see cref="IActionResult"/> with the application data.</returns>
 
-        //[Authorize(Roles = "Admin,SuperAdmin")]
+        [Authorize(Roles = "Admin,SuperAdmin")]
         public async Task<IActionResult> Applications()
         {
             try
