@@ -26,6 +26,7 @@ namespace ElecPOE.Controllers
         private readonly IWebHostEnvironment _hostEnvironment;
         private readonly INotyfService _notify;
         private readonly ILogger<ApplicationsController> _logger;
+        private readonly IHelperService _helperService;
 
 
         #endregion
@@ -42,6 +43,8 @@ namespace ElecPOE.Controllers
 
             ILogger<ApplicationsController> logger,
 
+            IHelperService helperService,
+
             INotyfService notify)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
@@ -55,7 +58,14 @@ namespace ElecPOE.Controllers
             _notify = notify ?? throw new ArgumentNullException(nameof(notify));
 
             _logger = logger;
+
+            _helperService = helperService;
         }
+
+        /// <summary>
+        /// Processes the application submission.
+        /// </summary>
+        /// <returns>A task representing the asynchronous operation.</returns>
 
         [HttpGet]
         public async Task<IActionResult> Apply()
@@ -75,6 +85,12 @@ namespace ElecPOE.Controllers
 
             return View();
         }
+
+        /// <summary>
+        /// Processes the application submission.
+        /// </summary>
+        /// <param name="model">The application data transfer object.</param>
+        /// <returns>A task representing the asynchronous operation.</returns>
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -182,6 +198,7 @@ namespace ElecPOE.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
         [Authorize(Roles = "Admin,SuperAdmin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -254,7 +271,15 @@ namespace ElecPOE.Controllers
 
             return View(model);
         }
-  
+
+
+        /// <summary>
+        /// Downloads a file from the specified destination folder.
+        /// </summary>
+        /// <param name="fileName">The name of the file to download.</param>
+        /// <param name="destinationFolder">The folder where the file is located.</param>
+        /// <returns>A file result for downloading the file.</returns>
+
         public IActionResult DownloadFile(string fileName, string destinationFolder)
         {
             try
@@ -276,6 +301,14 @@ namespace ElecPOE.Controllers
                 return RedirectToAction(nameof(Applications));
             }
         }
+
+
+        /// <summary>
+        /// Builds a notification message for the application.
+        /// </summary>
+        /// <param name="model">The application model.</param>
+        /// <param name="programme">The name of the program applied for.</param>
+        /// <returns>The notification message.</returns>
         public string MessageBuilder(Application model, string programme)
         {
             string message = $"Dear {model.ApplicantName} {model.ApplicantSurname},\n\n" +
@@ -292,6 +325,13 @@ namespace ElecPOE.Controllers
 
             return message;
         }
+
+
+        /// <summary>
+        /// Downloads an attachment file asynchronously.
+        /// </summary>
+        /// <param name="filename">The name of the file to download.</param>
+        /// <returns>A file result for downloading the attachment.</returns>
         public async Task<IActionResult> AttachmentDownload(string filename)
         {
             try
@@ -321,6 +361,12 @@ namespace ElecPOE.Controllers
                 return View();
             }
         }
+
+
+        /// <summary>
+        /// Uploads the qualification document for an application asynchronously.
+        /// </summary>
+        /// <param name="attachment">The application containing the qualification document.</param>
         public async Task QualificationUploader(Application attachment)
         {
             try
@@ -346,6 +392,12 @@ namespace ElecPOE.Controllers
 
             }
         }
+
+
+        /// <summary>
+        /// Uploads the identification document for an application asynchronously.
+        /// </summary>
+        /// <param name="attachment">The application containing the identification document.</param>
         public async Task AttachmentUploader(Application attachment)
         {
             try
@@ -371,6 +423,13 @@ namespace ElecPOE.Controllers
 
             }
         }
+
+
+        /// <summary>
+        /// Downloads a qualification document file asynchronously.
+        /// </summary>
+        /// <param name="filename">The name of the file to download.</param>
+        /// <returns>A file result for downloading the qualification document.</returns>
         public async Task<IActionResult> QualificationDownload(string filename)
         {
             try
@@ -400,6 +459,12 @@ namespace ElecPOE.Controllers
                 return View();
             }
         }
+
+
+        /// <summary>
+        /// Uploads the residence document for an application asynchronously.
+        /// </summary>
+        /// <param name="attachment">The application containing the residence document.</param>
         public async Task ResidenceUploader(Application attachment)
         {
             try
@@ -425,6 +490,12 @@ namespace ElecPOE.Controllers
 
             }
         }
+
+        /// <summary>
+        /// Downloads a residence document file asynchronously.
+        /// </summary>
+        /// <param name="filename">The name of the file to download.</param>
+        /// <returns>A file result for downloading the residence document.</returns>
         public async Task<IActionResult> ResidenceDownload(string filename)
         {
             try
@@ -454,6 +525,13 @@ namespace ElecPOE.Controllers
                 return View();
             }
         }
+
+        /// <summary>
+        /// Downloads a file from the specified folder.
+        /// </summary>
+        /// <param name="filename">The name of the file to download.</param>
+        /// <param name="folder">The folder where the file is located.</param>
+        /// <returns>A file result for downloading the file.</returns>
         public IActionResult FileDownload(string filename,string folder)
         {
             try
@@ -479,6 +557,15 @@ namespace ElecPOE.Controllers
                 return View();
             }
         }
+
+        /// <summary>
+        /// Notifies the applicant via SMS or email.
+        /// </summary>
+        /// <param name="UserEmail">The email of the user.</param>
+        /// <param name="UserPhone">The phone number of the user.</param>
+        /// <param name="Message">The message to be sent.</param>
+        /// <param name="IsSMS">Whether to send an SMS.</param>
+        /// <param name="IsEmail">Whether to send an email.</param>
         public void OnNotifyApplicant(string UserEmail, string UserPhone, string Message, bool IsSMS, bool IsEmail)
         {
             try
@@ -714,9 +801,11 @@ namespace ElecPOE.Controllers
         {
             string programme = await ConvertCourseIdToStringAsync(model.CourseId);
 
-            string message = MessageBuilder(model, programme);
+            _helperService.SendMailNotification(model.Email, "Application Acknowledgement",
+            _helperService.OnSendMessage(model.ApplicantName, programme, model.ReferenceNumber), "Online Applications");
 
-            Helper.OnSendMailNotification(model.Email, $"Online Application - Ref: {model.ReferenceNumber}", message, "Forek Online Applications");
+            _helperService.SendMailNotification("tmanyimo@forekinstitute.co.za", "New Application Alert",
+            _helperService.OnSendMailToAdmin(model.ApplicantName, programme, model.ReferenceNumber), "Online Applications");
 
         }
 

@@ -336,6 +336,96 @@ namespace ElecPOE.Utlility
             }
         }
 
+        public static string OnSendMessage(string name, string course, string refNumber)
+        {
+            int year = DateTime.Now.Year;
+
+            string template = @"
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f5f5f5;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .container {
+                            width: 100%;
+                            max-width: 600px;
+                            margin: 0 auto;
+                            background-color: #ffffff;
+                            padding: 20px;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        }
+                        .header {
+                            text-align: center;
+                        }
+                        .title {
+                            font-size: 24px;
+                            color: #333333;
+                        }
+                        .message {
+                            margin: 20px 0;
+                            font-size: 16px;
+                            color: #555555;
+                        }
+                        .footer {
+                            text-align: center;
+                            margin-top: 30px;
+                        }
+                        .button {
+                            background-color: #8B0000;
+                            color: #ffffff;
+                            padding: 15px 25px;
+                            font-size: 18px;
+                            display: inline-block;
+                            margin: 20px 0;
+                            border-radius: 5px;
+                        }
+                        .line {
+                            border-top: 1px solid #cccccc;
+                            margin: 20px 0;
+                        }
+                        .copyright {
+                            font-size: 14px;
+                            color: #888888;
+                            text-align: center;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h1 class='title'>Forek Online Applications</h1>
+                        </div>
+                        <div class='message'>
+                            <p>Dear {name},</p>
+                            <p>Thank you for applying for {course}. We acknowledge your application and will process it in due time.</p>
+                            <p>Below is your reference number. Which must be quoted in all forms of correspondence</p>
+                        </div>
+                        <div class='footer'>
+                            <div class='button'>Reference Number: {ref}</div>
+                        </div>
+                        <div class='line'></div>
+                        <div class='copyright'>
+                            &copy; Copyright {year} Forek Institute of Technology
+                        </div>
+                    </div>
+                </body>
+                </html>";
+            
+            return template.Replace("{name}", name)
+                           .Replace("{ref}", refNumber)
+                           .Replace("{course}", course)
+                           .Replace("{year}", year.ToString()); 
+
+        }
+
+
+
+
     }
 
 }

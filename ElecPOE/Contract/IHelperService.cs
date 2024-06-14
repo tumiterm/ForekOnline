@@ -138,6 +138,11 @@ namespace ElecPOE.Contract
         /// <param name="defaultValue">The default value to return if the key is not found.</param>
         /// <returns>The configuration value associated with the specified key, or the default value if the key is not found.</returns>
         string GetConfigurationValue(string key, string defaultValue);
-        
+        string OnSendMessage(string name, string course, string refNumber);
+        string OnSendMailToAdmin(string name, string course, string refNumber);
+
+
+
+
     }
 }

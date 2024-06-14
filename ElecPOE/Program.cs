@@ -5,7 +5,9 @@ using ElecPOE.Data;
 using ElecPOE.Middleware;
 using ElecPOE.Models;
 using ElecPOE.Repository;
+using ElecPOE.Utlility;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
@@ -64,6 +66,7 @@ builder.Services.AddScoped<IUnitOfWork<Visit>, VisitRepository>();
 builder.Services.AddScoped<IUnitOfWork<Medical>, MedicalRepository>();
 builder.Services.AddScoped<IUnitOfWork<Application>, ApplicationRepository>();
 builder.Services.AddScoped<IUnitOfWork<Guardian>, GuardianRepository>();
+builder.Services.AddScoped<IHelperService, HelperService>();
 builder.Services.AddScoped<IUnitOfWork<ElecPOE.Models.File>, FileRepository>();
 builder.Services.AddScoped<IUnitOfWork<ElecPOE.Models.License>, LicenseRepository>();
 
