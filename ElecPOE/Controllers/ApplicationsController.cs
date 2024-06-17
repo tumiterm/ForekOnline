@@ -279,6 +279,15 @@ namespace ElecPOE.Controllers
                 return NotFound();
             }
 
+
+            if (_rejContext.DoesEntityExist<ApplicationRejection>(a => a.ApplicationId == model.ApplicationId))
+            {
+                TempData["error"] = "Application Already Rejected!!";
+
+                return RedirectToAction(nameof(OnApply), new { ApplicationId = model.ApplicationId });
+
+
+            }
             var application = await _context.OnLoadItemAsync(model.ApplicationId);
 
             if (application == null)
@@ -292,7 +301,7 @@ namespace ElecPOE.Controllers
             {
                 TempData["error"] = "Validation error.";
 
-                return View(model);
+                return RedirectToAction(nameof(OnApply), new { ApplicationId = model.ApplicationId });
             }
 
             var response = await SaveApplicationRejectionAsync(applicationRejection);
