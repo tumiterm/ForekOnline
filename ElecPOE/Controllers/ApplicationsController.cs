@@ -2,6 +2,7 @@
 #region Using Directives
 
 using AspNetCoreHero.ToastNotification.Abstractions;
+using Azure;
 using ElecPOE.Contract;
 using ElecPOE.DTO;
 using ElecPOE.Models;
@@ -21,6 +22,7 @@ namespace ElecPOE.Controllers
         #region Private DbContext
 
         private readonly IUnitOfWork<Application> _context;
+        private readonly IUnitOfWork<ApplicationRejection> _rejContext;
         private readonly IUnitOfWork<Course> _courseContext;
         private readonly IUnitOfWork<Guardian> _guardianContext;
         private readonly IWebHostEnvironment _hostEnvironment;
@@ -35,6 +37,8 @@ namespace ElecPOE.Controllers
 
             IUnitOfWork<Application> context,
 
+            IUnitOfWork<ApplicationRejection> rejContext,
+
             IUnitOfWork<Course> courseContext,
 
             IUnitOfWork<Guardian> guardianContext,
@@ -48,6 +52,8 @@ namespace ElecPOE.Controllers
             INotyfService notify)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
+
+            _rejContext = rejContext ?? throw new ArgumentNullException(nameof(rejContext));
 
             _courseContext = courseContext ?? throw new ArgumentNullException(nameof(courseContext));
 
@@ -136,7 +142,7 @@ namespace ElecPOE.Controllers
         /// </summary>
         /// <returns>A task representing the asynchronous operation, containing an <see cref="IActionResult"/> with the application data.</returns>
 
-        [Authorize(Roles = "Admin,SuperAdmin")]
+        //[Authorize(Roles = "Admin,SuperAdmin")]
         public async Task<IActionResult> Applications()
         {
             try
@@ -199,6 +205,14 @@ namespace ElecPOE.Controllers
             }
         }
 
+
+
+        /// <summary>
+        /// Updates an existing application with the provided application data transfer object.
+        /// </summary>
+        /// <param name="model">The application data transfer object containing the updated application details.</param>
+        /// <returns>A task representing the asynchronous operation.</returns>
+
         [Authorize(Roles = "Admin,SuperAdmin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -206,71 +220,88 @@ namespace ElecPOE.Controllers
         {
             var application = await _context.OnLoadItemAsync(model.ApplicantId);
 
-            var guardians = await _guardianContext.OnLoadItemsAsync();
-
-            var guardian = guardians.FirstOrDefault(m => m.ApplicationId == application.ApplicationId);
-
-            model.GuardianFirstName = guardian.FirstName;
-
-            model.GuardianLastName = guardian.LastName;
-
-            model.GuardianCellphone = guardian.Cellphone;
-
-            model.GuardianRelationship = guardian.Relationship;
-
-            Application app = new()
+            if (application == null)
             {
-                ApplicationId = application.ApplicationId,
+                TempData["error"] = "Application not found.";
 
-                ReferenceNumber = model.ReferenceNumber,
+                return View(model);
+            }
 
-                CourseId = application.CourseId,
+            var guardian = await LoadGuardianAsync(application.ApplicationId);
 
-                HighestQualDoc = model.HighestQualDoc,
+            if (guardian == null)
+            {
+                TempData["error"] = "Guardian not found.";
 
-                HighestQualification= model.HighestQualification, 
-                
-                ApplicantTitle = model.ApplicantTitle,
+                return View(model);
+            }
 
-                ApplicantName = model.ApplicantName,
+            UpdateModelWithGuardianDetails(model, guardian);
 
-                ApplicantSurname = model.ApplicantSurname,
+            var updatedApplication = CreateUpdatedApplication(application, model);
 
-                Cellphone = model.Cellphone,
+            if (model.Status == Enums.ApplicationStatus.Rejected)
+            {
+                if (!await IsRejectionFormSubmittedAsync(model.ApplicantId))
+                {
+                    TempData["error"] = "Rejection form not submitted. Please provide reasons for rejection.";
 
-                Email = model.Email,
+                    return View(model);
+                }
+            }
 
-                Gender =model.Gender,
+            var modifyApp = await _context.OnModifyItemAsync(updatedApplication);
 
-                IDNumber = model.IDNumber,
-
-                PassportNumber = model.PassportNumber,
-
-                Selection = model.Selection,
-
-                Status = model.Status,
-
-                StudyPermitCategory = model.StudyPermitCategory,
-
-                IDPassDoc= model.IDPassDoc,
-            };
-
-            var modifyApp = await _context.OnModifyItemAsync(app);
-
-            if (modifyApp != null) {
-
-                TempData["success"] = "Application saved successfully";
+            if (modifyApp != null)
+            {
+                TempData["success"] = "Application saved successfully.";
 
                 return RedirectToAction(nameof(Applications));
             }
-            else
-            {
-                TempData["error"] = "Error: Unable to save application!!!";
-            }
 
+            TempData["error"] = "Error: Unable to save application.";
 
             return View(model);
         }
+
+        /// <summary>
+        /// Rejects an application based on the provided rejection data transfer object.
+        /// </summary>
+        /// <param name="model">The rejection data transfer object containing the details of the rejection.</param>
+        /// <returns>A task representing the asynchronous operation.</returns>
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> OnRejectApplication(RejectionDTO model)
+        {
+            if (!_context.DoesEntityExist<Application>(a => a.ApplicationId == model.ApplicationId))
+            {
+                return NotFound();
+            }
+
+            var application = await _context.OnLoadItemAsync(model.ApplicationId);
+
+            if (application == null)
+            {
+                return NotFound();
+            }
+
+            var applicationRejection = CreateApplicationRejection(model);
+
+            if (!ModelState.IsValid)
+            {
+                TempData["error"] = "Validation error.";
+
+                return View(model);
+            }
+
+            var response = await SaveApplicationRejectionAsync(applicationRejection);
+
+            TempData["success"] = response > 0 ? "Application successfully rejected." : "Error: Application rejection failed.";
+
+            return RedirectToAction(nameof(OnApply), new { ApplicationId = model.ApplicationId});
+        }
+
 
 
         /// <summary>
@@ -580,6 +611,129 @@ namespace ElecPOE.Controllers
         }
 
         #region Private Helpers
+
+        /// <summary>
+        /// Checks if a rejection form has been submitted for the specified applicantID asynchronously.
+        /// </summary>
+        /// <param name="applicantId">The applicant ID.</param>
+        /// <returns>True if a rejection form exists; otherwise, false.</returns>
+        private async Task<bool> IsRejectionFormSubmittedAsync(Guid applicantId)
+        {
+            return await Task.Run(() => _rejContext.DoesEntityExist<ApplicationRejection>(r => r.ApplicationId == applicantId));
+        }
+
+
+        /// <summary>
+        /// Creates an updated application entity from the existing application and the application data transfer object.
+        /// </summary>
+        /// <param name="application">The existing application entity.</param>
+        /// <param name="model">The application data transfer object.</param>
+        /// <returns>The updated application entity.</returns>
+        private Application CreateUpdatedApplication(Application application, ApplyDTO model)
+        {
+            return new Application
+            {
+                ApplicationId = application.ApplicationId,
+
+                ReferenceNumber = model.ReferenceNumber,
+
+                CourseId = application.CourseId,
+
+                HighestQualDoc = model.HighestQualDoc,
+
+                HighestQualification = model.HighestQualification,
+
+                ApplicantTitle = model.ApplicantTitle,
+
+                ApplicantName = model.ApplicantName,
+
+                ApplicantSurname = model.ApplicantSurname,
+
+                Cellphone = model.Cellphone,
+
+                Email = model.Email,
+
+                Gender = model.Gender,
+
+                IDNumber = model.IDNumber,
+
+                PassportNumber = model.PassportNumber,
+
+                Selection = model.Selection,
+
+                Status = model.Status,
+
+                StudyPermitCategory = model.StudyPermitCategory,
+
+                IDPassDoc = model.IDPassDoc
+            };
+        }
+
+
+        /// <summary>
+        /// Updates the application data transfer object with the guardian details.
+        /// </summary>
+        /// <param name="model">The application data transfer object.</param>
+        /// <param name="guardian">The guardian details.</param>
+        private void UpdateModelWithGuardianDetails(ApplyDTO model, Guardian guardian)
+        {
+            model.GuardianFirstName = guardian.FirstName;
+
+            model.GuardianLastName = guardian.LastName;
+
+            model.GuardianCellphone = guardian.Cellphone;
+
+            model.GuardianRelationship = guardian.Relationship;
+        }
+
+
+        /// <summary>
+        /// Loads the guardian details associated with the specified applicationID asynchronously.
+        /// </summary>
+        /// <param name="applicationId">The application ID.</param>
+        /// <returns>The guardian details.</returns>
+        private async Task<Guardian> LoadGuardianAsync(Guid applicationId)
+        {
+            var guardians = await _guardianContext.OnLoadItemsAsync();
+
+            return guardians.FirstOrDefault(m => m.ApplicationId == applicationId);
+        }
+
+
+        /// <summary>
+        /// Saves the provided ApplicationRejection instance to the database asynchronously.
+        /// </summary>
+        /// <param name="applicationRejection">The application rejection instance to save.</param>
+        /// <returns>The number of state entries written to the database.</returns>
+        private async Task<int> SaveApplicationRejectionAsync(ApplicationRejection applicationRejection)
+        {
+            await _rejContext.OnItemCreationAsync(applicationRejection);
+
+            return await _rejContext.ItemSaveAsync();
+        }
+
+
+        /// <summary>
+        /// Creates an ApplicationRejection instance from the provided RejectionDTO model.
+        /// </summary>
+        /// <param name="model">The rejection data transfer object.</param>
+        /// <returns>The created ApplicationRejection instance.</returns>
+        private ApplicationRejection CreateApplicationRejection(RejectionDTO model)
+        {
+            return new ApplicationRejection
+            {
+                FollowUpDate = model.FollowUpDate,
+                AdditionalComments = model.AdditionalComments,
+                NextSteps = model.NextSteps,
+                ApplicationId = model.ApplicationId,
+                CreatedBy = "Itu",
+                CreatedOn = _helperService.GetCurrentDateTime(),
+                Id = _helperService.GenerateGuid(),
+                IsFinal = model.IsFinal,
+                IsActive = true,
+                Reason = model.Reason
+            };
+        }
 
         /// <summary>
         /// Creates an <see cref="Application"/> entity from the given <see cref="ApplyDTO"/> model.

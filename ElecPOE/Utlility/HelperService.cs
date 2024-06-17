@@ -494,7 +494,6 @@ namespace ElecPOE.Utlility
                            .Replace("{course}", course)
                            .Replace("{year}", year.ToString());
         }
-
         public string OnSendMailToAdmin(string name, string course, string refNumber)
         {
             int year = DateTime.Now.Year;

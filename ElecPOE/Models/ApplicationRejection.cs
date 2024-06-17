@@ -1,9 +1,13 @@
-﻿namespace ElecPOE.Models
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+
+namespace ElecPOE.Models
 {
     public class ApplicationRejection : Base
     {
         public Guid Id { get; set; }
-        public Guid ApplicationId { get; set; } 
+        public Guid ApplicationId { get; set; }
+
+        [ValidateNever]
         public Application Application { get; set; }
         public string Reason { get; set; } = string.Empty;  
         public string? AdditionalComments { get; set; } 
